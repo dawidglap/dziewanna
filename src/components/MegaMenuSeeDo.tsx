@@ -19,7 +19,7 @@ export default function MegaMenuSeeDo() {
   ];
 
   return (
-  <div className="absolute top-[10px] right-0 mt-2 w-[90vw] max-w-4xl bg-[#111A20] text-white py-6 px-8 shadow-xl flex flex-col lg:flex-row gap-8 z-50 rounded-md">
+  <div className="absolute top-[10px] right-0 mt-2 w-[90vw] max-w-4xl bg-[#111A20] text-white py-6 px-8 shadow-xl flex flex-col lg:flex-row gap-8 z-50 rounded-sm">
 
 
       {/* Lista esperienze */}
@@ -37,7 +37,7 @@ export default function MegaMenuSeeDo() {
         <Image
           src={Poster}
           alt="Highlight"
-          className="w-full h-auto object-cover rounded-md mb-3"
+          className="w-full h-auto object-cover rounded-sm mb-3"
         />
         <p className="text-sm text-white/80 leading-relaxed">
           {t('seeDoHighlight')} {/* e.g. “Scopri le attività autentiche tra le foreste e i laghi della Kaszuby...” */}
