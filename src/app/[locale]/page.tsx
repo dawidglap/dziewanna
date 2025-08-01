@@ -25,8 +25,7 @@ export default function HomePage() {
       ) : (
         <div>
           <Hero />
-          <h1 className="text-3xl font-bold underline text-red-500">{t('title')}</h1>
-          <Link href="/about">{t('about')}</Link>
+          
         </div>
       )}
     </>
