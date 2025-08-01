@@ -1,6 +1,8 @@
 {
-    "HomePage": {
-        "title": "Hello world! POLSKI",
-        "about": "Go to the about page"
+    "Hero": {
+        "title": "Pokoje z duszą",
+        "subtitle": "Odpocznij w sercu natury",
+        "button1": "Zadzwoń i zarezerwuj",
+        "button2": "Zakwaterowanie"
     }
 }

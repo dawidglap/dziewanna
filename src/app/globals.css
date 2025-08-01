@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: var(--font-montserrat), sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-caveat), cursive;
+  }
+
+  .font-caveat {
+    font-family: var(--font-caveat), cursive;
+  }
+
+  .font-montserrat {
+    font-family: var(--font-montserrat), sans-serif;
+  }
+}
