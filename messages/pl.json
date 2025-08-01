@@ -6,6 +6,12 @@
         "button2": "Zobacz pokoje"
     },
     "Navbar": {
+        "desktop": {
+            "accommodation": "Zakwaterowanie",
+            "seeDo": "Atrakcje",
+            "about": "O nas",
+            "reviews": "Opinie"
+        },
         "mobile": {
             "accommodation": "Pokoje i noclegi",
             "seeAndDo": "Atrakcje w okolicy",
@@ -20,7 +26,8 @@
             "campfire": "Wieczorne ogniska",
             "bbq": "Grill w ogrodzie",
             "forest": "Spacery po lesie",
-            "birds": "Obserwacja ptaków"
+            "birds": "Obserwacja ptaków",
+            "seeDoHighlight": "Odkryj autentyczne atrakcje regionu Kaszub i Pomorza – grzybobranie, kajaki, ogniska i wiele więcej."
         }
     }
 }
