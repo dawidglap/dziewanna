@@ -1,6 +1,26 @@
 {
-    "HomePage": {
-        "title": "Hello world! germanyyyy",
-        "about": "Go to the about page"
+    "Hero": {
+        "title": "Zimmer mit Seele",
+        "subtitle": "Entspannen in der Natur – Wald, Dünen und Ruhe nahe der Ostsee",
+        "button1": "Jetzt anrufen und Unterkunft buchen",
+        "button2": "Zimmer ansehen"
+    },
+    "Navbar": {
+        "mobile": {
+            "accommodation": "Zimmer & Unterkunft",
+            "seeAndDo": "Aktivitäten in der Nähe",
+            "about": "Über Dziewanna",
+            "reviews": "Gästebewertungen",
+            "faq": "Häufige Fragen",
+            "location": "Unser Standort",
+            "cycling": "Fahrradtouren",
+            "mushrooming": "Pilzesammeln",
+            "herbs": "Kräuterwanderung",
+            "kayak": "Kajakfahren",
+            "campfire": "Lagerfeuer am Abend",
+            "bbq": "Grill im Garten",
+            "forest": "Waldspaziergänge",
+            "birds": "Vogelbeobachtung"
+        }
     }
 }

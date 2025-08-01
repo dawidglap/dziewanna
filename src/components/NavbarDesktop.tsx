@@ -20,7 +20,7 @@ export default function NavbarDesktop() {
   return (
     <div
       className={cn(
-        'fixed top-0 w-full z-40 transition-all duration-500',
+        'fixed top-0 w-full z-40 transition-all duration-500 hidden xl:block',
         compact ? 'py-2' : 'py-4'
       )}
       style={{

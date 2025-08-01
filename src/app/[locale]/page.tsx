@@ -25,7 +25,7 @@ export default function HomePage() {
       ) : (
         <div>
           <Hero />
-          
+          <Hero />
         </div>
       )}
     </>

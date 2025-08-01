@@ -1,6 +1,26 @@
 {
-    "HomePage": {
-        "title": "Hello world!",
-        "about": "Go to the about page"
+    "Hero": {
+        "title": "Rooms with soul",
+        "subtitle": "Relax in nature — forest, dunes and peace near the Baltic Sea",
+        "button1": "Call now to book your stay",
+        "button2": "View rooms"
+    },
+    "Navbar": {
+        "mobile": {
+            "accommodation": "Rooms & Lodging",
+            "seeAndDo": "Things to Do Nearby",
+            "about": "About Dziewanna",
+            "reviews": "Guest Reviews",
+            "faq": "Frequently Asked Questions",
+            "location": "Where We Are",
+            "cycling": "Bike Trails",
+            "mushrooming": "Mushroom Picking",
+            "herbs": "Herbal Walks",
+            "kayak": "Kayaking",
+            "campfire": "Evening Campfire",
+            "bbq": "Garden BBQ",
+            "forest": "Forest Walks",
+            "birds": "Bird Watching"
+        }
     }
 }

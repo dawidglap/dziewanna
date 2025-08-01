@@ -1,8 +1,26 @@
 {
     "Hero": {
         "title": "Pokoje z duszą",
-        "subtitle": "Odpoczynek, który zostaje w sercu",
-        "button1": "Zadzwoń i zarezerwuj",
-        "button2": "Zakwaterowanie"
+        "subtitle": "Odpocznij blisko natury — las, plaża i spokój w sercu Pomorza",
+        "button1": "Zadzwoń i zarezerwuj nocleg",
+        "button2": "Zobacz pokoje"
+    },
+    "Navbar": {
+        "mobile": {
+            "accommodation": "Pokoje i noclegi",
+            "seeAndDo": "Atrakcje w okolicy",
+            "about": "O Dziewannie",
+            "reviews": "Opinie gości",
+            "faq": "Najczęstsze pytania",
+            "location": "Gdzie jesteśmy",
+            "cycling": "Trasy rowerowe",
+            "mushrooming": "Grzybobranie Kaszubskie",
+            "herbs": "Zioła i natura",
+            "kayak": "Spływy kajakowe",
+            "campfire": "Wieczorne ogniska",
+            "bbq": "Grill w ogrodzie",
+            "forest": "Spacery po lesie",
+            "birds": "Obserwacja ptaków"
+        }
     }
 }
