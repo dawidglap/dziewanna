@@ -25,7 +25,7 @@ export default function MegaMenuSeeDo() {
       {/* Lista esperienze */}
       <div className="grid grid-cols-2 gap-x-10 gap-y-4">
         {experiences.map(({ label, icon }) => (
-          <div key={label} className="flex items-center gap-2 hover:text-emerald-300 transition">
+          <div key={label} className="flex items-center gap-2 hover:text-[#B2CD9C] transition">
             <span className="w-5 h-5">{icon}</span>
             <span>{label}</span>
           </div>
