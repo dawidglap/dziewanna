@@ -44,7 +44,7 @@ export default function Preloader({ onFinish }: { onFinish: () => void }) {
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.4, ease: 'easeOut' }}
-                className="font-caveat absolute text-xl md:text-7xl font-bold tracking-widest text-white z-20"
+                className="font-caveat absolute text-6xl md:text-7xl font-bold tracking-widest text-white z-20"
               >
                 Dziewanna
               </motion.span>
