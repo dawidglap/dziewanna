@@ -24,7 +24,7 @@ export default function Hero() {
     href="https://www.instagram.com/dziewanna_airbnb"
     target="_blank"
     rel="noopener noreferrer"
-    className="bg-white shadow-lg w-[32px] text-black hover:text-emerald-500 h-[128px] flex flex-col items-center justify-center space-y-6"
+    className="bg-white shadow-lg w-[32px] text-black hover:bg-[#B2CD9C] h-[128px] flex flex-col items-center justify-center space-y-6"
   >
     {/* Icona IG */}
     <CiInstagram className="w-5 h-5 " />
@@ -56,7 +56,7 @@ export default function Hero() {
           <Link
             href="#contact"
             className="bg-white text-black text-center font-semibold px-6 py-3 rounded-sm
-                       shadow hover:bg-emerald-300 transition
+                       shadow hover:bg-[#B2CD9C] transition
                        text-sm sm:text-base md:text-lg w-full sm:w-auto"
           >
             {t('button1')}
@@ -65,7 +65,7 @@ export default function Hero() {
           <Link
             href="#experiences"
             className="border border-white text-white text-center font-semibold px-6 py-3 rounded-sm
-                       hover:bg-emerald-300 hover:text-black hover:border-emerald-300 transition
+                       hover:bg-[#B2CD9C] hover:text-black hover:border-[#B2CD9C] transition
                        text-sm sm:text-base md:text-lg w-full sm:w-auto "
           >
             {t('button2')}

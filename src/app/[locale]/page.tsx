@@ -1,13 +1,13 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/navigation';
+// import { useTranslations } from 'next-intl';
+
 import Hero from '@/components/Hero';
 import Preloader from '@/components/Preloader';
 
 export default function HomePage() {
-  const t = useTranslations('HomePage');
+  // const t = useTranslations('HomePage');
   const [showPreloader, setShowPreloader] = useState(true);
 
   useEffect(() => {

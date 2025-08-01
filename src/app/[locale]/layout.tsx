@@ -4,6 +4,7 @@ import {routing} from '@/i18n/routing';
 import type { Metadata } from "next";
 import { Caveat, Montserrat } from "next/font/google";
 import '../globals.css';
+import NavbarDesktop from '@/components/NavbarDesktop';
 
 const caveat = Caveat({
   subsets: ["latin"],
@@ -38,7 +39,10 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={`${caveat.variable} ${montserrat.variable}`}>
       <body  className= "antialiased" > 
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <NavbarDesktop />
+          {children}
+          </NextIntlClientProvider>
       </body>
     </html>
   );
