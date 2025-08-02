@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { cn } from '../lib/utils';
 import MegaMenuSeeDo from './MegaMenuSeeDo';
 import { useTranslations } from 'next-intl';
+import LayoutWrapper from './LayoutWrapper';
 
 export default function NavbarDesktop() {
   const [scrollY, setScrollY] = useState(0);
@@ -33,7 +34,9 @@ export default function NavbarDesktop() {
         backdropFilter: 'blur(4px)',
       }}
     >
-      <div className="container mx-auto px-6 flex items-center justify-between relative">
+        <LayoutWrapper>
+      <div className="max-w-7xl mx-auto  flex items-center justify-between relative">
+
         {/* Logo */}
         <div className="text-white text-2xl font-bold tracking-widest select-none">
           DZIEWANNA
@@ -61,6 +64,7 @@ export default function NavbarDesktop() {
           <FaGlobe className="w-4 h-4 cursor-pointer hover:text-[#B2CD9C]" />
         </div>
       </div>
+      </LayoutWrapper>
     </div>
   );
 }

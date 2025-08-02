@@ -6,6 +6,7 @@ import { Caveat, Montserrat } from "next/font/google";
 import '../globals.css';
 import NavbarDesktop from '@/components/NavbarDesktop';
 import NavbarMobile from '@/components/NavbarMobile';
+import InstagramBadge from '@/components/InstagramBadge';
 
 const caveat = Caveat({
   subsets: ["latin"],
@@ -43,6 +44,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <NavbarDesktop />
           <NavbarMobile />
+          <InstagramBadge />
           {children}
           </NextIntlClientProvider>
       </body>
