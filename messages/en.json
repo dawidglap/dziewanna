@@ -1,26 +1,63 @@
 {
     "Hero": {
         "title": "Rooms with soul",
-        "subtitle": "Relax in nature — forest, dunes and peace near the Baltic Sea",
-        "button1": "Call now to book your stay",
+        "subtitle": "Relax close to nature — forest, beach and peace in the heart of Pomerania",
+        "button1": "Call and book a stay",
         "button2": "View rooms"
     },
     "Navbar": {
+        "desktop": {
+            "accommodation": "ACCOMMODATION",
+            "seeDo": "ATTRACTIONS",
+            "about": "ABOUT US",
+            "reviews": "REVIEWS"
+        },
         "mobile": {
-            "accommodation": "Rooms & Lodging",
-            "seeAndDo": "Things to Do Nearby",
+            "accommodation": "Rooms & stays",
+            "seeAndDo": "Nearby attractions",
             "about": "About Dziewanna",
-            "reviews": "Guest Reviews",
-            "faq": "Frequently Asked Questions",
-            "location": "Where We Are",
-            "cycling": "Bike Trails",
-            "mushrooming": "Mushroom Picking",
-            "herbs": "Herbal Walks",
-            "kayak": "Kayaking",
-            "campfire": "Evening Campfire",
+            "reviews": "Guest reviews",
+            "faq": "Frequently asked questions",
+            "location": "Where we are",
+            "cycling": "Bicycle routes",
+            "mushrooming": "Kashubian mushroom picking",
+            "herbs": "Herbs & nature",
+            "kayak": "Kayaking trips",
+            "campfire": "Evening campfires",
             "bbq": "Garden BBQ",
-            "forest": "Forest Walks",
-            "birds": "Bird Watching"
+            "forest": "Forest walks",
+            "birds": "Bird watching",
+            "seeDoHighlight": "Discover authentic attractions of Kaszuby and Pomerania – mushroom picking, kayaking, campfires and much more."
         }
+    },
+    "DziewannaIntro": {
+        "headline": "Dziewanna – rooms with soul in the heart of Pomerania",
+        "title1": "Dziewanna is more than just accommodation",
+        "description1": "A place where nature meets the warmth of home. In the heart of Kaszuby, near Słupsk and Ustka, we’ve created a space full of peace, greenery and true hospitality.",
+        "title2": "Welcome to our oasis",
+        "description2": "We offer six cozy mini‑apartments with private bathroom and kitchenette – ideal for families, couples or solo travelers. Each has its own unique atmosphere and views of the garden, forest or shared space.",
+        "title3": "Common spaces with soul",
+        "description3": "Guests can enjoy a lounge with fireplace, a kitchen with large table, a cozy balcony, and a green garden with sun loungers and a pool. These are places where conversations, laughter and memories are born.",
+        "title4": "Closer to nature",
+        "description4": "Our farm is not just accommodation, it’s also contact with nature: goats, dogs, cats, mushroom‑filled forests, cycle paths, and nearby – the famous dunes in Słowiński National Park.",
+        "title5": "Slow down. Relax. Breathe.",
+        "description5": "Dziewanna is a space for those seeking silence, balance and genuine rest. Close to nature, away from haste, in the heart of Pomerania.",
+        "ctaCall": "Call and book",
+        "ctaRooms": "View rooms",
+        "weatherTitle": "Weather forecast for Słupsk",
+        "weatherFallback": "Unable to load weather data. Check the forecast on",
+        "max": "Max",
+        "min": "Min",
+        "wind": "Wind",
+        "precip": "Precipitation"
+    },
+    "Weather": {
+        "title": "Weather in Słupsk – 3 days",
+        "fallback": "Unable to fetch weather forecast. Check directly on",
+        "button": "See detailed forecast",
+        "day": "Day",
+        "temperature": "max / min temp.",
+        "precipitation": "Precipitation",
+        "wind": "max / min wind km/h"
     }
 }

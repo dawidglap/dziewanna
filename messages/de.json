@@ -1,26 +1,63 @@
 {
     "Hero": {
         "title": "Zimmer mit Seele",
-        "subtitle": "Entspannen in der Natur – Wald, Dünen und Ruhe nahe der Ostsee",
-        "button1": "Jetzt anrufen und Unterkunft buchen",
+        "subtitle": "Entspanne nah an der Natur – Wald, Strand und Ruhe im Herzen von Pommern",
+        "button1": "Anrufen und übernachten buchen",
         "button2": "Zimmer ansehen"
     },
     "Navbar": {
+        "desktop": {
+            "accommodation": "UNTERKUNFT",
+            "seeDo": "ATTRAKTIONEN",
+            "about": "ÜBER UNS",
+            "reviews": "BEWERTUNGEN"
+        },
         "mobile": {
-            "accommodation": "Zimmer & Unterkunft",
-            "seeAndDo": "Aktivitäten in der Nähe",
+            "accommodation": "Zimmer & Übernachtung",
+            "seeAndDo": "Sehenswertes in der Umgebung",
             "about": "Über Dziewanna",
             "reviews": "Gästebewertungen",
             "faq": "Häufige Fragen",
             "location": "Unser Standort",
-            "cycling": "Fahrradtouren",
-            "mushrooming": "Pilzesammeln",
-            "herbs": "Kräuterwanderung",
-            "kayak": "Kajakfahren",
-            "campfire": "Lagerfeuer am Abend",
-            "bbq": "Grill im Garten",
-            "forest": "Waldspaziergänge",
-            "birds": "Vogelbeobachtung"
+            "cycling": "Fahrradrouten",
+            "mushrooming": "Pilzsammeln in Kaschubien",
+            "herbs": "Kräuter & Natur",
+            "kayak": "Kajak‑Touren",
+            "campfire": "Lagerfeuerabende",
+            "bbq": "Grillen im Garten",
+            "forest": "Spaziergänge im Wald",
+            "birds": "Vogelbeobachtung",
+            "seeDoHighlight": "Entdecken Sie authentische Attraktionen der Region Kaschubien und Pommern – Pilzsammeln, Kajak fahren, Lagerfeuer und vieles mehr."
         }
+    },
+    "DziewannaIntro": {
+        "headline": "Dziewanna – Zimmer mit Seele im Herzen von Pommern",
+        "title1": "Dziewanna ist mehr als nur Unterkunft",
+        "description1": "Ein Ort, an dem Natur auf heimische Wärme trifft. Im Herzen Kaschubiens, nahe Słupsk und Ustka, haben wir einen Raum geschaffen voller Ruhe, Grün und echter Gastfreundschaft.",
+        "title2": "Willkommen in unserer Oase",
+        "description2": "Wir bieten sechs gemütliche Mini‑Apartments mit privatem Bad und Küchenzeile – ideal für Familien, Paare oder Alleinreisende. Jedes hat seine eigene einzigartige Atmosphäre und Blick auf Garten, Wald oder Gemeinschaftsbereich.",
+        "title3": "Gemeinschaftliche Räume mit Seele",
+        "description3": "Den Gästen stehen ein Kaminzimmer, eine Küche mit großer Tafel, ein gemütlicher Balkon sowie ein grüner Garten mit Liegen und Pool zur Verfügung. Orte, an denen Gespräche, Lachen und Erinnerungen entstehen.",
+        "title4": "Natur ganz nah",
+        "description4": "Unser Hof ist nicht nur Übernachtung, sondern auch Naturerleben: Ziegen, Hunde, Katzen, Pilzwälder, Radwege – und ganz in der Nähe die berühmten Wanderdünen im Słowiński-Nationalpark.",
+        "title5": "Langsam. Entspannen. Atmen.",
+        "description5": "Dziewanna ist ein Ort für all jene, die Stille, Balance und echten Rückzug suchen. Nah an der Natur, fern von Hektik, mitten in Pommern.",
+        "ctaCall": "Anrufen und buchen",
+        "ctaRooms": "Zimmer ansehen",
+        "weatherTitle": "Wettervorhersage für Słupsk",
+        "weatherFallback": "Wetterdaten konnten nicht geladen werden. Siehe Vorhersage auf",
+        "max": "Max",
+        "min": "Min",
+        "wind": "Wind",
+        "precip": "Niederschlag"
+    },
+    "Weather": {
+        "title": "Wetter in Słupsk – 3 Tage",
+        "fallback": "Wettervorhersage konnte nicht abgerufen werden. Direkt ansehen auf",
+        "button": "Ausführliche Prognose ansehen",
+        "day": "Tag",
+        "temperature": "max / min Temp.",
+        "precipitation": "Niederschlag",
+        "wind": "max / min Wind km/h"
     }
 }

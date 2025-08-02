@@ -16,13 +16,13 @@ export default function LangSwitcher() {
   const locale = useLocale();
 
   const handleLocaleChange = (newLocale: string) => {
-    const pathWithoutLocale = pathname.replace(/^\/(pl|de|it)/, '') || '/';
+    const pathWithoutLocale = pathname.replace(/^\/(pl|de|en)/, '') || '/';
     router.push(`/${newLocale}${pathWithoutLocale}`);
     setIsOpen(false);
   };
 
   return (
-    <div className="relative z-30">
+    <div className="relative z-30 ">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="text-white hover:text-[#B2CD9C] transition"
@@ -38,7 +38,7 @@ export default function LangSwitcher() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -5 }}
             transition={{ duration: 0.2 }}
-            className="absolute right-0 mt-2 w-28 bg-[#1F1F1F] text-white shadow-md rounded-md overflow-hidden"
+            className="absolute right-0 mt-2 w-28 bg-[#1F1F1F] text-white shadow-md rounded-sm overflow-hidden"
           >
             {locales.map((loc) => (
               <li
