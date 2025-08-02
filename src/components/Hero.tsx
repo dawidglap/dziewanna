@@ -34,7 +34,7 @@ export default function Hero() {
 
         <h1
           className="font-caveat font-bold text-white drop-shadow-md leading-tight
-                     text-[clamp(2.5rem,8vw,6rem)]"
+                     text-[clamp(2.5rem,8vw,6rem)] pe-6"
         >
           {t('title')}
         </h1>
