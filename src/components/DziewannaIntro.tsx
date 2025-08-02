@@ -11,7 +11,7 @@ export default function DziewannaIntro() {
   const t = useTranslations('DziewannaIntro');
 
   return (
-    <section className="w-full bg-[#ECFAE5] py-16 px-6 xl:px-0">
+    <section className="w-full bg-[#ECFAE5]  py-16 px-6 xl:px-0 overflow-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-12 gap-12 items-stretch">
         {/* Colonna testo - 2/3 su XL */}
         <motion.div
@@ -74,7 +74,7 @@ export default function DziewannaIntro() {
         </motion.div>
 
         {/* Widget meteo allineato sotto al testo */}
-        <div className="xl:col-span-8 mt-10">
+        <div className="xl:col-span-8 ">
           <WidgetWeather />
         </div>
       </div>
