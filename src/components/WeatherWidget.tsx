@@ -146,65 +146,80 @@ const getAverageWindForRange = (day: string, hourStart: number, hourEnd: number)
       </div>
     );
   }
-
-  return (
-    <div className="mt-10 bg-white shadow-lg rounded-md overflow-hidden">
-      <div className="p-4 border-b">
-        <h3 className="text-xl font-semibold text-[#1F1F1F]">{t('title')}</h3>
-      </div>
-
-      <div className="overflow-auto">
-        <table className="min-w-full text-sm text-left text-gray-800">
-          <thead className="bg-gray-100">
-            <tr>
-              <th className="p-2 ">{" "}</th>
-              <th className="p-2">00–12 / 12–00</th>
-              <th className="p-2">{t('temperature')}</th>
-              <th className="p-2">{t('precipitation')}</th>
-              <th className="p-2">{t('wind')}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {daily.time.map((date, i) => {
-              const { iconMorning, iconEvening, windMorning, windEvening } = getHourlyDataForDay(date, i);
-
-
-              return (
-                <tr key={i} className="border-t">
-                  <td className="p-2 font-bold">
-                    {new Date(date).toLocaleDateString(locale, {
-                      weekday: 'long',
-                      day: 'numeric',
-                      month: 'short',
-                    })}
-                  </td>
-                  <td className="p-2 text-xl">
-                    {iconMorning} / {iconEvening}
-                  </td>
-                  <td className="p-2 text-red-600 font-medium">
-                    {daily.temperature_2m_max[i]}° / {daily.temperature_2m_min[i]}°
-                  </td>
-                  <td className="p-2 text-blue-600">
-                    {daily.precipitation_sum[i]} mm
-                  </td>
-                  <td className="p-2 text-gray-600">
-                    {windMorning} / {windEvening} km/h
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
-
-      <div className="bg-[#1F1F1F] text-white text-center py-3 text-sm hover:bg-[#2f2f2f]">
-        <Link
-          href="https://www.yr.no/en/forecast/daily-table/2-3085450/Poland/Pomeranian%20Voivodeship/S%C5%82upsk/S%C5%82upsk"
-          target="_blank"
-        >
-          {t('button')}
-        </Link>
-      </div>
+return (
+  <div className="mt-10 bg-white shadow-lg rounded-md overflow-hidden">
+    {/* Header */}
+    <div className="p-4 border-b">
+      <p className="text-xl font-semibold text-[#1F1F1F]">{t('title')}</p>
     </div>
-  );
+
+    {/* Tabella */}
+    <div className="overflow-auto">
+      <table className="min-w-full text-sm text-left text-gray-800 table-fixed ">
+
+        <thead className="bg-gray-100 text-xs sm:text-sm text-[#1F1F1F] font-semibold ">
+  <tr>
+    <th className="ps-4 p-2">{t('day')}</th>
+    <th className="p-2  min-w-[56px] text-left whitespace-nowrap">00–12</th>
+    <th className="p-2 min-w-[56px] text-left whitespace-nowrap">12–00</th>
+    <th className="p-2 text-left whitespace-nowrap">{t('temperature')}</th>
+    <th className="p-2 text-left whitespace-nowrap">{t('precipitation')}</th>
+    <th className="p-2 whitespace-nowrap">{t('wind')}</th>
+  </tr>
+</thead>
+
+<tbody>
+  {daily.time.map((date, i) => {
+    const {
+      iconMorning,
+      iconEvening,
+      windMorning,
+      windEvening,
+    } = getHourlyDataForDay(date, i);
+
+    return (
+      <tr
+        key={i}
+        className="border-t border-gray-200 text-sm sm:text-base"
+      >
+        <td className="ps-4 p-2 font-bold text-[#1F1F1F] whitespace-nowrap">
+          {new Date(date).toLocaleDateString(locale, {
+            weekday: 'long',
+            day: 'numeric',
+            month: 'short',
+          })}
+        </td>
+        <td className="p-2 text-xl text-center">{iconMorning}</td>
+        <td className="p-2 text-xl text-center">{iconEvening}</td>
+        <td className="p-2 text-red-600 font-medium">
+          {daily.temperature_2m_max[i]}° / {daily.temperature_2m_min[i]}°
+        </td>
+        <td className="p-2 text-blue-600 whitespace-nowrap">
+          {daily.precipitation_sum[i]} mm
+        </td>
+        <td className="p-2 text-gray-600 whitespace-nowrap">
+          {windMorning} / {windEvening} km/h
+        </td>
+      </tr>
+    );
+  })}
+</tbody>
+
+      </table>
+    </div>
+
+    {/* Footer link */}
+    
+      <Link
+        href="https://www.yr.no/en/forecast/daily-table/2-3085450/Poland/Pomeranian%20Voivodeship/S%C5%82upsk/S%C5%82upsk"
+        target="_blank"
+        className="bg-[#1F1F1F] text-white text-center font-semibold block py-3  shadow hover:bg-[#B2CD9C] hover:text-black transition
+               text-sm sm:text-base md:text-lg m-4 rounded-sm"
+      >
+        {t('button')}
+      </Link>
+    
+  </div>
+);
+
 }
