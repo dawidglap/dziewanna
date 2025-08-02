@@ -175,7 +175,7 @@ return (
       iconEvening,
       windMorning,
       windEvening,
-    } = getHourlyDataForDay(date, i);
+    } = getHourlyDataForDay(date);
 
     return (
       <tr
