@@ -7,10 +7,10 @@
     },
     "Navbar": {
         "desktop": {
-            "accommodation": "Zakwaterowanie",
-            "seeDo": "Atrakcje",
-            "about": "O nas",
-            "reviews": "Opinie"
+            "accommodation": "ZAKWATEROWANIE",
+            "seeDo": "ATRAKCJE",
+            "about": "O NAS",
+            "reviews": "OPINIE"
         },
         "mobile": {
             "accommodation": "Pokoje i noclegi",
@@ -31,6 +31,7 @@
         }
     },
     "DziewannaIntro": {
+        "headline": "Dziewanna – pokoje z duszą w sercu Pomorza",
         "title1": "Dziewanna to nie tylko nocleg",
         "description1": "To miejsce, w którym natura spotyka się z domowym ciepłem. W samym sercu Kaszub, niedaleko Słupska i Ustki, stworzyliśmy przestrzeń pełną spokoju, zieleni i prawdziwej gościnności.",
         "title2": "Witaj w naszej oazie",
@@ -40,6 +41,23 @@
         "title4": "Bliskość natury",
         "description4": "Nasze gospodarstwo to nie tylko nocleg, to także kontakt z przyrodą: kozy, psy, koty, lasy pełne grzybów, ścieżki rowerowe, a w pobliżu – słynne wydmy w Słowińskim Parku Narodowym.",
         "title5": "Zwolnij. Odpręż się. Oddychaj.",
-        "description5": "Dziewanna to przestrzeń dla tych, którzy szukają ciszy, równowagi i autentycznego odpoczynku. Blisko natury, z dala od pośpiechu, w sercu Pomorza."
+        "description5": "Dziewanna to przestrzeń dla tych, którzy szukają ciszy, równowagi i autentycznego odpoczynku. Blisko natury, z dala od pośpiechu, w sercu Pomorza.",
+        "ctaCall": "Zadzwoń i zarezerwuj",
+        "ctaRooms": "Zobacz pokoje",
+        "weatherTitle": "Prognoza pogody dla Słupska",
+        "weatherFallback": "Nie udało się załadować danych pogodowych. Sprawdź prognozę na stronie",
+        "max": "Maks.",
+        "min": "Min.",
+        "wind": "Wiatr",
+        "precip": "Opady"
+    },
+    "Weather": {
+        "title": "Pogoda w Słupsku – 3 dni",
+        "fallback": "Nie udało się pobrać prognozy pogody. Sprawdź bezpośrednio na",
+        "button": "Zobacz szczegóły prognozy",
+        "day": "Dzień",
+        "temperature": "Temperatura max/min",
+        "precipitation": "Opady",
+        "wind": "Wiatr 00–12 / 12–00"
     }
 }
