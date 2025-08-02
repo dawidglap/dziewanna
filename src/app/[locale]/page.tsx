@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 
 import Hero from '@/components/Hero';
 import Preloader from '@/components/Preloader';
+import DziewannaIntro from '@/components/DziewannaIntro';
 
 export default function HomePage() {
   // const t = useTranslations('HomePage');
@@ -25,7 +26,7 @@ export default function HomePage() {
       ) : (
         <div>
           <Hero />
-          <Hero />
+          <DziewannaIntro />
         </div>
       )}
     </>
