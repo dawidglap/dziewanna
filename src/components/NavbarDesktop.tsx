@@ -1,12 +1,13 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { FaGlobe } from 'react-icons/fa';
+
 import Link from 'next/link';
 import { cn } from '../lib/utils';
 import MegaMenuSeeDo from './MegaMenuSeeDo';
 import { useTranslations } from 'next-intl';
 import LayoutWrapper from './LayoutWrapper';
+import LangSwitcher from './LangSwitcher';
 
 export default function NavbarDesktop() {
   const [scrollY, setScrollY] = useState(0);
@@ -61,7 +62,8 @@ export default function NavbarDesktop() {
           <Link href="#about" className="hover:text-[#B2CD9C] transition-colors">{t('about')}</Link>
           <Link href="#reviews" className="hover:text-[#B2CD9C] transition-colors">{t('reviews')}</Link>
 
-          <FaGlobe className="w-4 h-4 cursor-pointer hover:text-[#B2CD9C]" />
+          
+          <LangSwitcher />
         </div>
       </div>
       </LayoutWrapper>

@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import {
-  FaGlobe,
+  
   FaBicycle,
   FaLeaf,
   FaFire,
@@ -19,6 +19,7 @@ import {
 
 
 import { useTranslations } from 'next-intl';
+import LangSwitcher from './LangSwitcher';
 
 export default function NavbarMobile() {
   const t = useTranslations('Navbar.mobile');
@@ -71,7 +72,7 @@ export default function NavbarMobile() {
       >
         <span className="text-xl font-bold tracking-wider text-white">DZIEWANNA</span>
         <div className="flex items-center gap-4">
-  <FaGlobe className="w-5 h-5 text-white" />
+  <LangSwitcher />
         
 <button
   onClick={() => setOpen(!open)}
