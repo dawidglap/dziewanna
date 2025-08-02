@@ -3,7 +3,7 @@
 import HeroBackground from '@/components/HeroBackground';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
-import { CiInstagram } from "react-icons/ci";
+
 import LayoutWrapper from '@/components/LayoutWrapper';
 
 
