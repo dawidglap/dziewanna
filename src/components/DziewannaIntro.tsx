@@ -6,6 +6,7 @@ import dziewannaGraphic from '../../public/poster.webp';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import WidgetWeather from './WeatherWidget';
+import SeasonalBox from './SeasonalBox';
 
 export default function DziewannaIntro() {
   const t = useTranslations('DziewannaIntro');
@@ -77,6 +78,10 @@ export default function DziewannaIntro() {
         <div className="xl:col-span-8 ">
           <WidgetWeather />
         </div>
+        <div className="xl:col-span-4 ">
+  <SeasonalBox />
+</div>
+
       </div>
     </section>
   );

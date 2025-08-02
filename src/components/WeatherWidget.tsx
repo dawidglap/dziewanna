@@ -134,7 +134,8 @@ const getAverageWindForRange = (day: string, hourStart: number, hourEnd: number)
 
   if (!daily) {
     return (
-      <div className=" bg-white shadow p-6 rounded-md text-center text-gray-600 text-sm">
+      <div className="bg-white shadow-lg rounded-sm overflow-hidden h-full min-h-[380px] xl:h-full flex flex-col justify-between">
+
         {t('fallback')}{' '}
         <Link
           href="https://www.yr.no/en/forecast/daily-table/2-3085450/Poland/Pomeranian%20Voivodeship/S%C5%82upsk/S%C5%82upsk"
@@ -147,7 +148,8 @@ const getAverageWindForRange = (day: string, hourStart: number, hourEnd: number)
     );
   }
 return (
-  <div className=" bg-white shadow-lg rounded-md overflow-hidden">
+  <div className="bg-white shadow-lg rounded-sm overflow-hidden h-full min-h-[380px] xl:h-full flex flex-col justify-between">
+
     {/* Header */}
     <div className="p-4 border-b">
       <p className="text-xl font-semibold text-[#1F1F1F]">{t('title')}</p>

@@ -59,5 +59,16 @@
         "temperature": "max/min temp.",
         "precipitation": "Opady",
         "wind": "max/min wiatr kh/h"
+    },
+    "SeasonalCard": {
+        "title": "Dziewanna poleca dziś",
+        "date": "Data:",
+        "item1": "Napar z mięty i pokrzywy z naszego ogrodu",
+        "item2": "Domowa nalewka z wiśni",
+        "item3": "Spacer po lesie i zbieranie ziół",
+        "item4": "Wycieczka rowerowa nad jezioro Krzynia",
+        "item5": "Plażowanie w Ustce lub Orzechowie",
+        "item6": "Kolacja w ogrodzie z grillem lub ogniskiem",
+        "cta": "Zobacz wszystkie doświadczenia"
     }
 }
