@@ -7,6 +7,7 @@ import Hero from '@/components/Hero';
 import Preloader from '@/components/Preloader';
 import DziewannaIntro from '@/components/DziewannaIntro';
 import SeasonalGallery from '@/components/SeasonalGallery';
+import AboutDziewanna from '@/components/AboutDziewanna';
 
 export default function HomePage() {
   // const t = useTranslations('HomePage');
@@ -29,6 +30,7 @@ export default function HomePage() {
           <Hero />
           <DziewannaIntro />
           <SeasonalGallery />
+          <AboutDziewanna />
         </div>
       )}
     </>

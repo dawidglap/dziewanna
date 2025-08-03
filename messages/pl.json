@@ -102,5 +102,25 @@
     "button": {
         "readMore": "Czytaj więcej",
         "guidedHikes": "Wędrówki z przewodnikiem"
+    },
+    "aboutDziewanna": {
+        "pretitle": "Pokoje z duszą",
+        "title": "About Dziewanna",
+        "description": "Dziewanna to coś więcej niż nocleg. To miejsce, gdzie zatrzymuje się czas, a codzienność zostaje za bramą ogrodu. Zanurz się w spokoju kaszubskiej natury, otoczony śpiewem ptaków, zapachem ziół i słońcem przebijającym przez liście. Nasze apartamenty to azyl stworzony z sercem – dla rodzin, par, samotnych wędrowców i rowerzystów. Z dala od tłumów, blisko lasu, ogniska i dobrych rozmów. Dziewanna to dom z duszą – poczuj się zaproszony.",
+        "seeApartments": "Zobacz apartamenty",
+        "callToBook": "Zadzwoń, aby zarezerwować",
+        "paragraph1": "W sercu kaszubskiej przyrody, wśród lasów, łąk i ciszy, znajduje się Dziewanna – miejsce, które zachwyca o każdej porze roku.",
+        "paragraph2": "Stworzone z pasją przez Izabelę Gordonowicz i Tomasza Tislera, Dziewanna to coś więcej niż nocleg. To przestrzeń, w której każdy znajdzie spokój i swój rytm.",
+        "spring": "Wiosną wszystko budzi się do życia, a ogród wypełnia się zielenią.",
+        "summer": "Latem pachnie ziołami, ogniskami i śmiechem w ogrodzie.",
+        "autumn": "Jesienią przyroda mieni się złotem, a w sadzie dojrzewają owoce.",
+        "winter": "Zimą wszystko przykrywa biały puch – idealny czas na odpoczynek przy kominku.",
+        "experiencesTitle": "Goście mogą:",
+        "gardenWalk": "spacerować po ekologicznym ogrodzie i odkrywać dzikie zioła;",
+        "fruitTasting": "zbierać i smakować świeże owoce sezonowe prosto z krzewów;",
+        "bonfire": "przygotować drewno na letnie ognisko pod gwiazdami;",
+        "homemadeProducts": "spędzać czas z gospodarzami, próbując nalewek i serów z koziego mleka.",
+        "paragraph3": "Dziewanna to miejsce, gdzie człowiek żyje w zgodzie z naturą. Gdzie każda pora roku ma swój rytm i historię do opowiedzenia.",
+        "invite": "Zapraszamy do Dziewanny – pokoje z duszą."
     }
 }
