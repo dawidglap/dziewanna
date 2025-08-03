@@ -7,6 +7,7 @@ import '../globals.css';
 import NavbarDesktop from '@/components/NavbarDesktop';
 import NavbarMobile from '@/components/NavbarMobile';
 import InstagramBadge from '@/components/InstagramBadge';
+import type { ReactNode } from 'react';
 
 // ✅ Fonts ottimizzati
 const caveat = Caveat({
@@ -43,13 +44,13 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   return metadataByLocale[locale] || metadataByLocale.en;
 }
 
-export default async function LocaleLayout({
-  children,
-  params
-}: {
-  children: React.ReactNode;
+// ✅ Typing fix
+interface LocaleLayoutProps {
+  children: ReactNode;
   params: { locale: string };
-}) {
+}
+
+export default async function LocaleLayout({ children, params }: LocaleLayoutProps) {
   const locale = params?.locale;
 
   if (!locale || !(routing.locales as readonly string[]).includes(locale)) {
