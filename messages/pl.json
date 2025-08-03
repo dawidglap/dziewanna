@@ -3,7 +3,7 @@
         "title": "Pokoje z duszą",
         "subtitle": "Odpocznij blisko natury — las, plaża i spokój w sercu Pomorza",
         "button1": "Zadzwoń i zarezerwuj nocleg",
-        "button2": "Zobacz pokoje"
+        "button2": "Zobacz apartamenty"
     },
     "Navbar": {
         "desktop": {
@@ -43,7 +43,7 @@
         "title5": "Zwolnij. Odpręż się. Oddychaj.",
         "description5": "Dziewanna to przestrzeń dla tych, którzy szukają ciszy, równowagi i autentycznego odpoczynku. Blisko natury, z dala od pośpiechu, w sercu Pomorza.",
         "ctaCall": "Zadzwoń i zarezerwuj",
-        "ctaRooms": "Zobacz pokoje",
+        "ctaRooms": "Zobacz apartamenty",
         "weatherTitle": "Prognoza pogody dla Słupska",
         "weatherFallback": "Nie udało się załadować danych pogodowych. Sprawdź prognozę na stronie",
         "max": "Maks.",
@@ -69,6 +69,16 @@
         "item4": "Wycieczka rowerowa nad jezioro Krzynia",
         "item5": "Plażowanie w Ustce lub Orzechowie",
         "item6": "Kolacja w ogrodzie z grillem lub ogniskiem",
-        "cta": "Zobacz wszystkie doświadczenia"
+        "cta": "Poznaj lokalne atrakcje"
+    },
+    "AccommodationBox": {
+        "title": "Noclegi",
+        "description": "Zamieszkaj w jednym z 6 przytulnych apartamentów typu studio z prywatną kuchnią i łazienką. Otoczenie natury, ogród, zwierzęta i sezonowy basen — idealne dla par i rodzin.",
+        "cta": "Zobacz apartamenty"
+    },
+    "SeeAndDoBox": {
+        "title": "Co robić w okolicy",
+        "description": "Odkryj szlaki rowerowe, leśne ścieżki, grzybobranie, spływy kajakowe po jeziorze Krzynia, degustację serów koziej, ogniska i więcej atrakcji wokół Dziewanny.",
+        "cta": "Wszystkie atrakcje"
     }
 }

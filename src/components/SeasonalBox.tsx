@@ -86,7 +86,7 @@ export default function SeasonalSuggestionsCard() {
       {/* Content */}
       <div className="text-gray-700 text-sm leading-relaxed mb-6">
         <p className="text-[13px] mb-2 text-gray-500">
-          {t('date')} {today}
+           {today}
         </p>
 
         <ul className="list-disc list-inside space-y-2 mb-4">

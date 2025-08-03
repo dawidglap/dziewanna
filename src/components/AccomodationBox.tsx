@@ -1,17 +1,26 @@
-import Link from "next/link";
+'use client';
+
+import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+import { BedDouble } from 'lucide-react';
 
 export default function AccommodationBox() {
+  const t = useTranslations('AccommodationBox');
+
   return (
     <div className="bg-white rounded-sm shadow-md p-6 flex flex-col justify-between h-full">
-      <h3 className="text-xl font-bold mb-2">🛏️ Accommodation</h3>
+      <div className="flex items-center gap-2 mb-2">
+        <BedDouble className="w-6 h-6 text-[#1F1F1F]" />
+        <h3 className="text-xl md:text-2xl font-bold">{t('title')}</h3>
+      </div>
       <p className="text-sm text-[#333] leading-relaxed">
-        Choose from 6 cozy studio apartments at Dziewanna, each with private kitchen and bathroom. Enjoy our garden, animals, and peaceful forest surroundings.
+        {t('description')}
       </p>
       <Link
         href="/pokoje"
-        className="mt-4 bg-black text-white px-4 py-2 text-sm text-center font-medium rounded hover:bg-[#B2CD9C] hover:text-black transition"
+        className="bg-[#1F1F1F] text-white text-center font-semibold block py-2 shadow hover:bg-[#B2CD9C] hover:text-black transition text-sm sm:text-base md:text-lg rounded-sm mt-4"
       >
-        See all
+        {t('cta')}
       </Link>
     </div>
   );
