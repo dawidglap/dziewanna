@@ -50,18 +50,26 @@ export default function SeasonalGallery() {
 
 
   // Scroll zoom effect
-  useEffect(() => {
-    const handleScroll = () => {
+useEffect(() => {
+  let animationFrameId: number;
+
+  const handleScroll = () => {
+    animationFrameId = requestAnimationFrame(() => {
       if (!sectionRef.current) return;
 
       const rect = sectionRef.current.getBoundingClientRect();
       const scrollProgress = Math.min(Math.max(-rect.top / window.innerHeight, 0), 1);
       setProgress(scrollProgress);
-    };
+    });
+  };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  window.addEventListener("scroll", handleScroll);
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+    cancelAnimationFrame(animationFrameId);
+  };
+}, []);
+
 
   // Cambio automatico stagione ogni 5s
   useEffect(() => {
@@ -146,17 +154,16 @@ const dynamicBottom = useMemo(() => {
 
           {/* Etichette stagionali in basso */}
 <div
-  className={`absolute left-1/2 -translate-x-1/2 w-full max-w-4xl px-4 md:px-10 z-10 transition-opacity duration-500 ${
-    shouldShowLabels ? "opacity-100" : "opacity-0 pointer-events-none"
+  className={`absolute left-1/2 -translate-x-1/2 w-full max-w-4xl px-4 md:px-10 z-10 transition-all duration-700 ease-out ${
+    shouldShowLabels
+      ? "opacity-100 translate-y-0 pointer-events-auto"
+      : "opacity-0 translate-y-4 pointer-events-none"
   }`}
   style={{
     bottom: dynamicBottom,
   }}
 >
-
-
   <div className="grid grid-cols-2 place-items-center md:flex md:flex-wrap justify-center gap-x-4 gap-y-2 w-[90%] max-w-sm mx-auto md:max-w-none md:w-full">
-
     {SEASONS.map((season, i) => (
       <div key={season.id} className="w-1/2 md:flex-1 text-center">
         <div
@@ -176,6 +183,7 @@ const dynamicBottom = useMemo(() => {
     ))}
   </div>
 </div>
+
 
 
 
