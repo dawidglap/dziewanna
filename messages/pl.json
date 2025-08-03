@@ -80,5 +80,27 @@
         "title": "Co robić w okolicy",
         "description": "Odkryj szlaki rowerowe, leśne ścieżki, grzybobranie, spływy kajakowe po jeziorze Krzynia, degustację serów koziej, ogniska i więcej atrakcji wokół Dziewanny.",
         "cta": "Wszystkie atrakcje"
+    },
+    "season": {
+        "spring": {
+            "title": "Wiosna w Dziewannie",
+            "description": "Wiosna na Pomorzu to czas przebudzenia natury. W Dziewannie możesz obserwować budzące się do życia lasy, słuchać śpiewu ptaków i cieszyć się pierwszymi, ciepłymi dniami. Idealna pora na rowerowe wycieczki po Kaszubach i spacery po okolicznych łąkach."
+        },
+        "summer": {
+            "title": "Lato w Dziewannie",
+            "description": "Letnie miesiące to czas pełen słońca, kąpieli w ogrodowym basenie i wieczornych ognisk pod gwiazdami. Dziewanna to idealne miejsce na wakacje blisko natury – z dala od zgiełku, a jednocześnie blisko morza, Ustki i Słowińskiego Parku Narodowego."
+        },
+        "autumn": {
+            "title": "Jesień w Dziewannie",
+            "description": "Jesień na Kaszubach zachwyca kolorami i zapachem lasu. To pora grzybobrania, spacerów po złotych liściach i wieczorów przy kominku. W Dziewannie poczujesz prawdziwy spokój i magię tej wyjątkowej pory roku."
+        },
+        "winter": {
+            "title": "Zima w Dziewannie",
+            "description": "Zima w Dziewannie to cisza, śnieg i przytulność. Idealna pora na odpoczynek przy ogniu, gorącą herbatę z ziół z naszego ogrodu i długie rozmowy w klimatycznej kuchni wspólnej. A może kulig lub spacer po zimowym lesie?"
+        }
+    },
+    "button": {
+        "readMore": "Czytaj więcej",
+        "guidedHikes": "Wędrówki z przewodnikiem"
     }
 }
