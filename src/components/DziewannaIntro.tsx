@@ -7,6 +7,8 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import WidgetWeather from './WeatherWidget';
 import SeasonalBox from './SeasonalBox';
+import SeeAndDoBox from './SeeAndDo';
+import AccommodationBox from './AccomodationBox';
 
 export default function DziewannaIntro() {
   const t = useTranslations('DziewannaIntro');
@@ -78,9 +80,16 @@ export default function DziewannaIntro() {
         <div className="xl:col-span-8 ">
           <WidgetWeather />
         </div>
-        <div className="xl:col-span-4 ">
+<div className="xl:col-span-4 xl:row-span-2 flex flex-col h-full">
   <SeasonalBox />
 </div>
+
+<div className="xl:col-span-4">
+          <SeeAndDoBox />
+        </div>
+        <div className="xl:col-span-4">
+          <AccommodationBox />
+        </div>
 
       </div>
     </section>

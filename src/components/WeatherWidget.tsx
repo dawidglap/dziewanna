@@ -55,7 +55,7 @@ export default function WidgetWeather() {
   if ([80, 81, 82].includes(code)) return '🌧️'; // Rovesci
   if ([85, 86].includes(code)) return '🌨️'; // Rovesci di neve
   if ([95, 96, 99].includes(code)) return '⛈️'; // Temporali
-  if (code >= 4 && code < 20) return '☀️';
+  if (code >= 4 && code < 20) return '☁️';
 
   // codici intermedi tipo 22, 35, ecc → fallback visivo coerente
   if (code >= 20 && code < 30) return '☁️'; // Nebbia/atmosfera incerta

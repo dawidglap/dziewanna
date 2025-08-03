@@ -8,7 +8,7 @@ import NavbarDesktop from '@/components/NavbarDesktop';
 import NavbarMobile from '@/components/NavbarMobile';
 import InstagramBadge from '@/components/InstagramBadge';
 
-// Fonts ottimizzati
+// ✅ Fonts ottimizzati
 const caveat = Caveat({
   subsets: ['latin'],
   display: 'swap',
@@ -23,6 +23,8 @@ const montserrat = Montserrat({
 
 // ✅ SEO multilingua
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const locale = params?.locale;
+
   const metadataByLocale: Record<string, Metadata> = {
     pl: {
       title: 'Dziewanna – pokoje z duszą w sercu Pomorza',
@@ -38,7 +40,6 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     }
   };
 
-  const { locale } = params;
   return metadataByLocale[locale] || metadataByLocale.en;
 }
 
@@ -49,10 +50,9 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const { locale } = params;
+  const locale = params?.locale;
 
-  // ✅ Type-safe check contro i valori ammessi
-  if (!(routing.locales as readonly string[]).includes(locale)) {
+  if (!locale || !(routing.locales as readonly string[]).includes(locale)) {
     notFound();
   }
 
