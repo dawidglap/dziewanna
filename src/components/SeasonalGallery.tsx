@@ -81,23 +81,28 @@ useEffect(() => {
   }, []);
 
 useEffect(() => {
-  const start = performance.now();
+  let start: number | null = null;
+  let frameId: number;
 
-  const animate = (time: number) => {
-    const elapsed = time - start;
+  const animate = (timestamp: number) => {
+    if (!start) start = timestamp;
+
+    const elapsed = timestamp - start;
     const progress = Math.min(elapsed / 5000, 1); // 5s
-
     setBarWidth(progress * 100);
 
     if (progress < 1) {
-      requestAnimationFrame(animate);
+      frameId = requestAnimationFrame(animate);
     }
   };
 
-  const raf = requestAnimationFrame(animate);
+  // Reset subito prima di iniziare
+  setBarWidth(0);
+  frameId = requestAnimationFrame(animate);
 
-  return () => cancelAnimationFrame(raf);
+  return () => cancelAnimationFrame(frameId);
 }, [currentSeasonIndex]);
+
 
 const dynamicBottom = useMemo(() => {
   const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
@@ -174,10 +179,11 @@ const dynamicBottom = useMemo(() => {
           {season.id.toUpperCase()}
         </div>
         <div className="h-[2px] w-full bg-white/30 mt-1 relative overflow-hidden rounded">
-          <div
-            className="h-full bg-orange-400 transition-all duration-100"
-            style={{ width: i === currentSeasonIndex ? `${barWidth}%` : "0%" }}
-          />
+       <div
+  className="h-full bg-orange-400 transition-all duration-100 will-change-[width]"
+  style={{ width: i === currentSeasonIndex ? `${barWidth}%` : "0%" }}
+/>
+
         </div>
       </div>
     ))}
