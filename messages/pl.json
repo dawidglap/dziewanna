@@ -122,5 +122,17 @@
         "homemadeProducts": "spędzać czas z gospodarzami, próbując nalewek i serów z koziego mleka.",
         "paragraph3": "Dziewanna to miejsce, gdzie człowiek żyje w zgodzie z naturą. Gdzie każda pora roku ma swój rytm i historię do opowiedzenia.",
         "invite": "Zapraszamy do Dziewanny – pokoje z duszą."
+    },
+    "accommodation": {
+        "title": "Nasze noclegi",
+        "intro": "W Dziewannie oferujemy noclegi z duszą – każdy apartament to połączenie komfortu i kontaktu z naturą.",
+        "apartments": {
+            "sampleTitle": "Apartament Leśny",
+            "sampleDescription": "Przytulny apartament z widokiem na las i dostępem do ogrodu."
+        }
+    },
+    "notFound": {
+        "message": "Ups! Taka strona nie istnieje lub została przeniesiona.",
+        "backHome": "Wróć na stronę główną"
     }
 }
