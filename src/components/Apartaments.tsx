@@ -6,40 +6,46 @@ import { useTranslations } from 'next-intl';
 
 const apartments = [
   {
-    id: 'rozmaryn',
-    titleKey: 'apartments.rozmaryn.title',
-    descKey: 'apartments.rozmaryn.description',
-    image: '/poster.webp',
-  },
-  {
     id: 'lawenda',
     titleKey: 'apartments.lawenda.title',
     descKey: 'apartments.lawenda.description',
-    image: '/poster.webp',
+    image: '/lawenda.webp',
   },
   {
-    id: 'pokrzywa',
-    titleKey: 'apartments.pokrzywa.title',
-    descKey: 'apartments.pokrzywa.description',
-    image: '/poster.webp',
+    id: 'chaber',
+    titleKey: 'apartments.chaber.title',
+    descKey: 'apartments.chaber.description',
+    image: '/chaber.webp',
   },
   {
     id: 'dziewanna',
     titleKey: 'apartments.dziewanna.title',
     descKey: 'apartments.dziewanna.description',
-    image: '/poster.webp',
+    image: '/dziewanna.webp',
   },
   {
-    id: 'rumianek',
-    titleKey: 'apartments.rumianek.title',
-    descKey: 'apartments.rumianek.description',
-    image: '/poster.webp',
+    id: 'mak',
+    titleKey: 'apartments.mak.title',
+    descKey: 'apartments.mak.description',
+    image: '/mak.webp',
   },
   {
-    id: 'macierzanka',
-    titleKey: 'apartments.macierzanka.title',
-    descKey: 'apartments.macierzanka.description',
-    image: '/poster.webp',
+    id: 'malwa',
+    titleKey: 'apartments.malwa.title',
+    descKey: 'apartments.malwa.description',
+    image: '/malwa.webp',
+  },
+  {
+    id: 'roza',
+    titleKey: 'apartments.roza.title',
+    descKey: 'apartments.roza.description',
+    image: '/roza.webp',
+  },
+  {
+    id: 'niezapominajka',
+    titleKey: 'apartments.niezapominajka.title',
+    descKey: 'apartments.niezapominajka.description',
+    image: '/niezapominajka.webp',
   },
 ];
 
@@ -75,7 +81,9 @@ export default function Apartments() {
                   className="inline-block bg-black w-full text-center text-white px-5 py-2 rounded-sm text-sm font-semibold
                              hover:bg-[#B2CD9C] hover:text-black transition"
                 >
-                  {t('common.ctaViewRoom')}
+                  {t('apartments.ctaViewRoom')}
+
+
                 </Link>
               </div>
             </div>
