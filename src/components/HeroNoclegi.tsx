@@ -11,7 +11,7 @@ export default function HeroNoclegi() {
 
   return (
    <section
-  className="relative w-full overflow-hidden flex items-end pb-20 h-[100vh] md:h-[90vh]"
+  className="relative w-full overflow-hidden flex items-end pb-20 h-[100vh] md:h-[80vh]"
 >
 
    {/* Background image */}

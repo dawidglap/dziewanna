@@ -127,7 +127,7 @@
         "title": "Nasze noclegi",
         "intro": "W Dziewannie oferujemy noclegi z duszą – każdy apartament to połączenie komfortu i kontaktu z naturą.",
         "apartments": {
-            "sampleTitle": "Apartament Leśny",
+            "sampleTitle": "Leśny",
             "sampleDescription": "Przytulny apartament z widokiem na las i dostępem do ogrodu."
         }
     },
@@ -160,31 +160,31 @@
     "apartments": {
         "ctaViewRoom": "Zobacz pokój",
         "lawenda": {
-            "title": "Apartament Lawenda",
+            "title": "Lawenda",
             "description": "Romantyczny apartament z widokiem na ogród, idealny dla par szukających spokoju i natury. Prywatna kuchnia, łazienka i zapach lawendy za oknem tworzą idealną atmosferę na wypoczynek blisko morza."
         },
         "chaber": {
-            "title": "Apartament Chaber",
+            "title": "Chaber",
             "description": "Przytulne wnętrze z niebieskimi akcentami, inspirowane chabrami z okolicznych łąk. Świetny wybór dla podróżujących solo lub w duecie. Kuchnia, łazienka i widok na naturę w cenie."
         },
         "dziewanna": {
-            "title": "Apartament Dziewanna",
+            "title": "Dziewanna",
             "description": "Nasz flagowy pokój — przestronny, jasny i z duszą. Własna kuchnia, komfortowa łazienka i okna wychodzące na zielony ogród sprawiają, że nie chce się stąd wyjeżdżać."
         },
         "mak": {
-            "title": "Apartament Mak",
+            "title": "Mak",
             "description": "Ciepły i słoneczny apartament z czerwonymi detalami, inspirowany makami z kaszubskich pól. Idealny na letni wypoczynek dla pary lub rodziny z dzieckiem. Cisza, śpiew ptaków i bliskość natury."
         },
         "malwa": {
-            "title": "Apartament Malwa",
+            "title": "Malwa",
             "description": "Rodzinny apartament z dostępem do ogrodu, dużą kuchnią i prywatną łazienką. Inspiracje naturą i kaszubską malwą w detalach. Komfortowy pobyt blisko plaż i Słowińskiego Parku Narodowego."
         },
         "roza": {
-            "title": "Apartament Róża",
+            "title": "Róża",
             "description": "Delikatny, kobiecy apartament dla tych, którzy szukają elegancji i wyciszenia. Idealny na weekend dla dwojga lub romantyczną ucieczkę z miasta. Balkon, kuchnia i przytulne wnętrze czekają."
         },
         "niezapominajka": {
-            "title": "Apartament Niezapominajka",
+            "title": "Niezapominajka",
             "description": "Pokój z widokiem na las i dostępem do zielonego ogrodu. Nazwa zobowiązuje — tego miejsca nie da się zapomnieć. Świetna baza wypadowa na grzybobrania, rowery i spacery po Kaszubach."
         }
     }

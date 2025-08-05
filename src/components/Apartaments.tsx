@@ -9,43 +9,43 @@ const apartments = [
     id: 'lawenda',
     titleKey: 'apartments.lawenda.title',
     descKey: 'apartments.lawenda.description',
-    image: '/lawenda.webp',
+    image: '/Lawenda2.webp',
   },
   {
     id: 'chaber',
     titleKey: 'apartments.chaber.title',
     descKey: 'apartments.chaber.description',
-    image: '/chaber.webp',
+    image: '/chab.webp',
   },
   {
     id: 'dziewanna',
     titleKey: 'apartments.dziewanna.title',
     descKey: 'apartments.dziewanna.description',
-    image: '/dziewanna.webp',
+    image: '/dziewanna2.webp',
   },
   {
     id: 'mak',
     titleKey: 'apartments.mak.title',
     descKey: 'apartments.mak.description',
-    image: '/mak.webp',
+    image: '/mak2.webp',
   },
   {
     id: 'malwa',
     titleKey: 'apartments.malwa.title',
     descKey: 'apartments.malwa.description',
-    image: '/malwa.webp',
+    image: '/malwa2.webp',
   },
   {
     id: 'roza',
     titleKey: 'apartments.roza.title',
     descKey: 'apartments.roza.description',
-    image: '/roza.webp',
+    image: '/roza2.webp',
   },
   {
     id: 'niezapominajka',
     titleKey: 'apartments.niezapominajka.title',
     descKey: 'apartments.niezapominajka.description',
-    image: '/niezapominajka.webp',
+    image: '/niezapominajka2.webp',
   },
 ];
 
@@ -60,7 +60,7 @@ export default function Apartments() {
             key={apt.id}
             className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col"
           >
-            <div className="relative w-full h-56">
+            <div className="relative w-full h-28">
               <Image
                 src={apt.image}
                 alt={t(apt.titleKey)}
@@ -71,7 +71,7 @@ export default function Apartments() {
 
             <div className="p-6 flex-1 flex flex-col justify-between">
               <div>
-                <h2 className="text-xl font-semibold mb-2">{t(apt.titleKey)}</h2>
+                <h2 className="text-3xl font-semibold mb-2">{t(apt.titleKey)}</h2>
                 <p className="text-sm text-gray-700">{t(apt.descKey)}</p>
               </div>
 
