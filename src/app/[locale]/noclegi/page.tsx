@@ -5,6 +5,7 @@ import HeroNoclegi from "@/components/HeroNoclegi";
 import Apartaments from "@/components/Apartaments";
 import Facilities from "../../../components/Facilities/Facilities"
 import HeaderReviewsApt from "@/components/HeaderReviewsApt";
+import Reviews from "@/components/Reviews";
 
 export const metadata: Metadata = {
   title: "Dziewanna – noclegi z duszą w sercu Pomorza",
@@ -22,6 +23,7 @@ export default function NoclegiPage() {
       <Facilities />
       <Apartaments />
       <HeaderReviewsApt />
+      <Reviews />
     
     </>
   );

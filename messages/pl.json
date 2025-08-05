@@ -189,15 +189,72 @@
         }
     },
     "reviews": {
+        "globalTitle": "Co mówią nasi goście?",
         "badgeTitle": "Goście polecają",
         "count": "{count} opinii",
         "sectionTitle": "Goście oceniają nas na {score}",
-        "sectionSubtitle": "Prawdziwe opinie naszych odwiedzających – {count} razy dziękowano nam za gościnność",
+        "sectionSubtitle": "Prawdziwe opinie naszych odwiedzających, {count}+ razy dziękowano nam za gościnność",
         "cleanliness": "Nieskazitelna czystość",
         "staff": "Serdeczna i pomocna obsługa",
         "comfort": "Wygoda i domowa atmosfera",
         "value": "Świetna jakość w rozsądnej cenie",
         "location": "Idealna lokalizacja wśród natury",
-        "facilities": "Udogodnienia, które robią różnicę"
+        "facilities": "Udogodnienia, które robią różnicę",
+        "1": {
+            "review": "Great location - hidden in the forest and fields, close to the sea. Property is intriguing and has got some nice surprises",
+            "name": "Marek z Poznania"
+        },
+        "2": {
+            "review": "Byłam w Dziewannie drugi raz i pewnie jeszcze wrócę. To miejsce idealne aby zrobić sobie reset od cywilizacji. Na miejscu jest wszystko co potrzebne, dzieci też się nudzić nie będą (basen). Klimatyczne miejsce.",
+            "name": "Kasia z Sopotu"
+        },
+        "4": {
+            "review": "Bardzo klimatyczne miejsce, świetna okolica na spacery. Blisko do miasta oraz nad morze. Pokoje czyściutkie i zadbane, a właściciele najlepsi na świecie!",
+            "name": "Łukasz z Poznania"
+        },
+        "3": {
+            "review": "Piękna lokalizacja, cisza, spokój, blisko do wielu pięknych tras wycieczkowych",
+            "name": "Ania z Bydgoszczy"
+        },
+        "5": {
+            "review": "Dom z duszą z pięknym ogrodem, basenem, biegającymi kózkami. W okolicy lasy pełne grzybów, blisko do urokliwych plaż. Wspaniali gospodarze z pasją.",
+            "name": "Wojtek z Zakopanego"
+        },
+        "10": {
+            "review": "Accommodation has a quiet location, hosts very friendly and helpful, delicious breakfast, communication was also possible in German",
+            "name": "Monika z Hamburga"
+        },
+        "7": {
+            "review": "Wspaniałe miejsce w środku lasu. Fantastyczna, pomocna, miła Właścicielka, Dobre śniadania, super atmosfera. Rozsądna odległość do koncertowej Doliny Charlotty i Słowińskiego Parku Narodowego. Gorąco polecam",
+            "name": "Agnieszka z Olsztyna"
+        },
+        "11": {
+            "review": "Super spokojjna okolica, naokoło lasy. Miejsce dla ludzi uciekających od miejskiego zgiełku. Pokoje duże,przestronne,czyste. Polecam.",
+            "name": "Jan z Zielonej Góry"
+        },
+        "9": {
+            "review": "Miejsce dla miłośników ciszy i spokoju. Przemili gospodarze, śniadanie przepyszne przygotowane z lokalnych produktów. Serdecznie polecam.",
+            "name": "Sylwia z Torunia"
+        },
+        "6": {
+            "review": "Czysto, cicho, blisko do natury, spokojnie, klimatycznie i relaksująco. Magia!",
+            "name": "Justyna z Rzeszowa"
+        },
+        "8": {
+            "review": "Wyjątkowy obiekt w sercu lasu. Spokój , przepięknie zagospodarowane otoczenie , kontakt z przyrodą , są nawet kózki. Jeśli ktoś nie lubi długich spacerów po lesie na miejscu spokojnie odpocznie w ogrodzie, z książką w ręku lub grillując. Pokoje w fantastycznie zrewitalizowanym obiekcie gospodarczym z ogromnym salonem na wspólne posiłki czy spotkania. Nawiasem mówiąc dawno nie jadłem taki wspaniałego domowego śniadania. Dziewanna może przyjmować zarówno poszukujących spokoju samotników jak i duże grupy. Ogólnie nie odczuwa się \"wrażenia hotelu\" tylko domowy klimat , chociażby poprzez aranżację apartamentów. Co by nie pisać i tak najważniejsi są rewelacyjni gospodarze: życzliwi, bardzo sympatyczni, zawsze do dyspozycji po prostu normalni. Gorąco polecam.",
+            "name": "Grzegorz z Krakowa"
+        },
+        "12": {
+            "review": "Bardzo fajne, klimatyczne miejsce. Spędziłem dwie noce. Bylo bardzo komfortowo - wszystko co powinno być było (dobrze wyposażona kuchnia). Małe dzieci można bez strachu puścić, żeby biegały. Kilka zwierząt - koty, psy i kozy które robią dodatkowy klimat i atrakcje. Z małym dzieckiem znalazłem wszystko co było potrzebne. Polecam.",
+            "name": "Tomek z Bielawy"
+        },
+        "13": {
+            "review": "Przepięknie usytuowana agroturystyka niedaleko Słupska. Wspaniały, duży ogród z miejscem na ognisko. Przemili i bardzo pomocni właściciele. Jeśli szukasz cichego, spokojnego miejsca na odpoczynek to Dziewanna to strzał w dziesiątkę.",
+            "name": "Tomasz z Wolsztyna"
+        },
+        "14": {
+            "review": "Bardzo klimatyczne miejsce, las, pola, wypoczynek, reset od cywilizacji. Tylko cykanie świerszczy naokoło. Na miejscu wszelkie potrzebne udogodnienia.",
+            "name": "Basia z Zielonej Góry"
+        }
     }
 }

@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import {
-  Star,
   ThumbsUp,
   Sparkles,
   ShieldCheck,
@@ -10,12 +9,18 @@ import {
   MapPin,
   Award,
 } from 'lucide-react';
+import Image from 'next/image';
 
 export default function HeaderReviewsApt() {
   const t = useTranslations();
 
   return (
-    <section className=" py-12 px-4 sm:px-8 xl:px-0 max-w-7xl mx-auto ">
+    <section className="py-12 px-4 sm:px-8 xl:px-0 max-w-7xl mx-auto">
+      {/* Titolo globale della sezione */}
+      <h2 className="text-3xl sm:text-6xl font-bold mb-10 text-center sm:text-left">
+        {t('reviews.globalTitle')}
+      </h2>
+
       {/* Wrapper per layout flessibile */}
       <div className="flex flex-col xl:flex-row gap-8">
         {/* CARD REVIEWS */}
@@ -31,7 +36,7 @@ export default function HeaderReviewsApt() {
               <div className="text-3xl font-bold text-black">9.2</div>
               <div className="h-6 border-l border-gray-300" />
               <div className="text-xs text-gray-500">
-                {t('reviews.count', { count: 48 })}
+                {t('reviews.count', { count: 50 })}+
               </div>
             </div>
           </div>
@@ -39,19 +44,13 @@ export default function HeaderReviewsApt() {
           {/* Header titolo + voto */}
           <div className="px-6 flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6 gap-4">
             <div>
-              <h2 className="text-3xl font-bold">
+              <h3 className="text-2xl font-bold">
                 {t('reviews.sectionTitle', { score: '9.2/10' })}
-              </h2>
+              </h3>
               <p className="text-gray-700 text-xs">
-                {t('reviews.sectionSubtitle', { count: 48 })}
+                {t('reviews.sectionSubtitle', { count: 50 })}
               </p>
             </div>
-
-            {/* <div className="flex items-center gap-2">
-              <Star className="text-blue-600 w-6 h-6" />
-              <span className="text-xl font-semibold">9.2</span>
-              <span className="text-gray-500 text-sm">/ 10</span>
-            </div> */}
           </div>
 
           {/* Highlighted review points */}
@@ -89,11 +88,16 @@ export default function HeaderReviewsApt() {
           </div>
         </div>
 
-        {/* IMMAGINE – placeholder per ora */}
-        <div className="hidden xl:block xl:w-2/3 rounded-md overflow-hidden">
-          <div className="w-full h-full bg-gray-200 flex items-center justify-center text-gray-500 text-xl italic">
-            {/* Sostituisci con <Image /> */}
-            IMAGE HERE
+        {/* IMMAGINE – responsive */}
+        <div className="xl:block xl:w-2/3 rounded-md overflow-hidden">
+          <div className="relative w-full h-[200px] sm:h-[280px] xl:h-[450px] rounded-lg overflow-hidden">
+            <Image
+              src="/reviewsHero.webp"
+              alt={t('reviews.placeholderAlt')}
+              fill
+              className="object-cover"
+              priority
+            />
           </div>
         </div>
       </div>
