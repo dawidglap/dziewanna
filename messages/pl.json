@@ -187,5 +187,17 @@
             "title": "Niezapominajka",
             "description": "Pokój z widokiem na las i dostępem do zielonego ogrodu. Nazwa zobowiązuje — tego miejsca nie da się zapomnieć. Świetna baza wypadowa na grzybobrania, rowery i spacery po Kaszubach."
         }
+    },
+    "reviews": {
+        "badgeTitle": "Ulubiony obiekt naszych gości",
+        "count": "{count} opinii",
+        "sectionTitle": "Średnia ocena gości: {score}",
+        "sectionSubtitle": "Na podstawie {count} opinii",
+        "cleanliness": "Czystość",
+        "staff": "Obsługa",
+        "comfort": "Komfort",
+        "value": "Stosunek jakości do ceny",
+        "location": "Lokalizacja",
+        "facilities": "Udogodnienia"
     }
 }
