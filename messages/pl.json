@@ -262,5 +262,22 @@
         "ctaAttractions": "Zobacz atrakcje",
         "ctaCall": "Zadzwoń i zarezerwuj",
         "seeOnGoogle": "Zobacz mapę w Google"
+    },
+    "Footer": {
+        "description": "W sercu kaszubskiej natury – Dziewanna to więcej niż nocleg. To miejsce stworzone z duszą.",
+        "navigation": "Nawigacja",
+        "accommodation": "Zakwaterowanie",
+        "seeDo": "Zobacz & Zrób",
+        "about": "O nas",
+        "reviews": "Opinie",
+        "activities": "Atrakcje",
+        "cycling": "Wycieczki rowerowe",
+        "mushrooming": "Grzybobranie",
+        "herbs": "Zioła i relaks",
+        "kayak": "Kajaki",
+        "campfire": "Ogniska",
+        "bbq": "Grillowanie",
+        "forest": "Spacer po lesie",
+        "birds": "Obserwacja ptaków"
     }
 }

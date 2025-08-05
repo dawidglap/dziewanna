@@ -32,7 +32,7 @@ const Reviews = () => {
           observer.disconnect();
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0 }
     );
 
     if (ref.current) {

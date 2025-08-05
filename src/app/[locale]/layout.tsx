@@ -7,6 +7,7 @@ import '../globals.css';
 import NavbarDesktop from '@/components/NavbarDesktop';
 import NavbarMobile from '@/components/NavbarMobile';
 import InstagramBadge from '@/components/InstagramBadge';
+import Footer from '@/components/Footer';
 
 const caveat = Caveat({
   subsets: ["latin"],
@@ -46,6 +47,7 @@ export default async function LocaleLayout({
           <NavbarMobile />
           <InstagramBadge />
           {children}
+          <Footer />
           </NextIntlClientProvider>
       </body>
     </html>

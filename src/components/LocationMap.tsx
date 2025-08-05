@@ -8,7 +8,7 @@ const LocationMap = () => {
   const t = useTranslations('Location')
 
   return (
-    <section className="bg-[#B2CD9C]/20 text-black py-16 px-6">
+    <section className="bg-[#B2CD9C]/20 text-black py-16 px-6 rounded-b-xl shadow-md ">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-semibold mb-6">
           {t('title')}
