@@ -189,15 +189,15 @@
         }
     },
     "reviews": {
-        "badgeTitle": "Ulubiony obiekt naszych gości",
+        "badgeTitle": "Goście polecają",
         "count": "{count} opinii",
-        "sectionTitle": "Średnia ocena gości: {score}",
-        "sectionSubtitle": "Na podstawie {count} opinii",
-        "cleanliness": "Czystość",
-        "staff": "Obsługa",
-        "comfort": "Komfort",
-        "value": "Stosunek jakości do ceny",
-        "location": "Lokalizacja",
-        "facilities": "Udogodnienia"
+        "sectionTitle": "Goście oceniają nas na {score}",
+        "sectionSubtitle": "Prawdziwe opinie naszych odwiedzających – {count} razy dziękowano nam za gościnność",
+        "cleanliness": "Nieskazitelna czystość",
+        "staff": "Serdeczna i pomocna obsługa",
+        "comfort": "Wygoda i domowa atmosfera",
+        "value": "Świetna jakość w rozsądnej cenie",
+        "location": "Idealna lokalizacja wśród natury",
+        "facilities": "Udogodnienia, które robią różnicę"
     }
 }
