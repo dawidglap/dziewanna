@@ -94,7 +94,7 @@ export default function Apartments() {
     </section>
   );
 }
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function ApartmentCard({ apt, t }: { apt: any; t: any }) {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col h-full">
