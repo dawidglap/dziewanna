@@ -256,5 +256,11 @@
             "review": "Bardzo klimatyczne miejsce, las, pola, wypoczynek, reset od cywilizacji. Tylko cykanie świerszczy naokoło. Na miejscu wszelkie potrzebne udogodnienia.",
             "name": "Basia z Zielonej Góry"
         }
+    },
+    "Location": {
+        "title": "Tu nas znajdziesz",
+        "ctaAttractions": "Zobacz atrakcje",
+        "ctaCall": "Zadzwoń i zarezerwuj",
+        "seeOnGoogle": "Zobacz mapę w Google"
     }
 }

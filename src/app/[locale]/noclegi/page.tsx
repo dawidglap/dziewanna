@@ -6,6 +6,7 @@ import Apartaments from "@/components/Apartaments";
 import Facilities from "../../../components/Facilities/Facilities"
 import HeaderReviewsApt from "@/components/HeaderReviewsApt";
 import Reviews from "@/components/Reviews";
+import LocationMap from "@/components/LocationMap";
 
 export const metadata: Metadata = {
   title: "Dziewanna – noclegi z duszą w sercu Pomorza",
@@ -24,7 +25,7 @@ export default function NoclegiPage() {
       <Apartaments />
       <HeaderReviewsApt />
       <Reviews />
-    
+    <LocationMap />
     </>
   );
 }

@@ -1,51 +1,51 @@
 {
     "Hero": {
-        "title": "Ferienzimmer mit Charme an der Ostsee",
-        "subtitle": "Entspannen Sie zwischen Wald, Strand und Ruhe – Natururlaub im Herzen Pommerns",
-        "button1": "Jetzt anrufen und Urlaub buchen",
-        "button2": "Alle Apartments ansehen"
+        "title": "Zimmer mit Seele",
+        "subtitle": "Entspanne in der Nähe der Natur – Wald, Strand und Ruhe im Herzen Pommerns",
+        "button1": "Ruf an und buche deinen Aufenthalt",
+        "button2": "Sieh dir die Apartments an"
     },
     "Navbar": {
         "desktop": {
-            "accommodation": "UNTERKÜNFTE",
-            "seeDo": "AKTIVITÄTEN",
+            "accommodation": "UNTERKUNFT",
+            "seeDo": "ATTRAKTIONEN",
             "about": "ÜBER UNS",
             "reviews": "BEWERTUNGEN"
         },
         "mobile": {
-            "accommodation": "Zimmer & Unterkünfte",
-            "seeAndDo": "Aktivitäten in der Umgebung",
+            "accommodation": "Zimmer und Unterkünfte",
+            "seeAndDo": "Sehenswürdigkeiten in der Umgebung",
             "about": "Über Dziewanna",
             "reviews": "Gästebewertungen",
-            "faq": "Häufige Fragen",
+            "faq": "Häufig gestellte Fragen",
             "location": "Wo wir sind",
-            "cycling": "Radtouren",
-            "mushrooming": "Pilzsammeln in Kaschubien",
+            "cycling": "Radwege",
+            "mushrooming": "Kaschubische Pilzsuche",
             "herbs": "Kräuter und Natur",
-            "kayak": "Kajaktouren",
+            "kayak": "Kajakfahrten",
             "campfire": "Abendliche Lagerfeuer",
-            "bbq": "Grill im Garten",
+            "bbq": "Grillen im Garten",
             "forest": "Waldspaziergänge",
             "birds": "Vogelbeobachtung",
-            "seeDoHighlight": "Entdecken Sie authentische Attraktionen der Region Kaschubien und Pommern – Pilzsammeln, Kajakfahren, Lagerfeuer und vieles mehr."
+            "seeDoHighlight": "Entdecke authentische Attraktionen der Region Kaschubei und Pommern – Pilze sammeln, Kajakfahren, Lagerfeuer und vieles mehr."
         }
     },
     "DziewannaIntro": {
-        "headline": "Dziewanna – Zimmer mit Herz im Herzen Pommerns",
+        "headline": "Dziewanna – Zimmer mit Seele im Herzen Pommerns",
         "title1": "Dziewanna ist mehr als nur eine Unterkunft",
-        "description1": "Hier trifft Natur auf familiäre Gastfreundschaft. Im Herzen der Kaschubischen Landschaft, unweit von Stolp (Słupsk) und Stolpmünde (Ustka), haben wir einen Ort der Ruhe, des Grüns und der echten Gastlichkeit geschaffen.",
+        "description1": "Es ist ein Ort, an dem sich Natur mit häuslicher Wärme trifft. Im Herzen der Kaschubei, nahe Słupsk und Ustka, haben wir einen Raum voller Ruhe, Grün und echter Gastfreundschaft geschaffen.",
         "title2": "Willkommen in unserer Oase",
-        "description2": "Wir bieten sechs gemütliche Studios mit eigenem Bad und Küchenzeile – ideal für Familien, Paare und Alleinreisende. Jedes Apartment hat seinen eigenen Charme und Blick auf Garten, Wald oder den Gemeinschaftsbereich.",
+        "description2": "Wir bieten sechs gemütliche Mini‑Apartments mit eigenem Bad und Küchenzeile – ideal für Familien, Paare und Alleinreisende. Jedes hat sein eigenes einzigartiges Klima und einen Blick auf den Garten, den Wald oder den Gemeinschaftsbereich.",
         "title3": "Gemeinschaftsräume mit Seele",
-        "description3": "Zur Verfügung stehen ein Wohnzimmer mit Kamin, eine Küche mit großem Tisch, ein gemütlicher Balkon und ein grüner Garten mit Liegestühlen und Pool. Hier entstehen Gespräche, Lachen und Erinnerungen.",
+        "description3": "Den Gästen stehen ein Wohnzimmer mit Kamin, eine Küche mit großem Tisch, ein gemütlicher Balkon sowie ein grüner Garten mit Liegestühlen und Pool zur Verfügung. Dies sind Orte, an denen Gespräche, Lachen und Erinnerungen entstehen.",
         "title4": "Nähe zur Natur",
-        "description4": "Unser Hof ist nicht nur eine Unterkunft, sondern auch der Kontakt zur Natur: Ziegen, Hunde, Katzen, Wälder voller Pilze, Radwege und in der Nähe die berühmten Dünen im Slowinzischen Nationalpark.",
-        "title5": "Langsam leben. Entspannen. Durchatmen.",
-        "description5": "Dziewanna ist ein Ort für alle, die Ruhe, Gleichgewicht und authentische Erholung suchen. Nahe an der Natur, fern von Hektik, im Herzen Pommerns.",
-        "ctaCall": "Jetzt anrufen und buchen",
-        "ctaRooms": "Apartments ansehen",
-        "weatherTitle": "Wettervorhersage für Stolp (Słupsk)",
-        "weatherFallback": "Wetterdaten konnten nicht geladen werden. Die Prognose finden Sie auf der Website",
+        "description4": "Unser Hof ist nicht nur eine Unterkunft, er ist auch der Kontakt zur Natur: Ziegen, Hunde, Katzen, Wälder voller Pilze, Radwege und in der Nähe – die berühmten Dünen im Slowinzischen Nationalpark.",
+        "title5": "Entschleunige. Entspanne dich. Atme.",
+        "description5": "Dziewanna ist ein Ort für diejenigen, die Stille, Balance und authentische Erholung suchen. Nah an der Natur, fern vom Trubel, im Herzen Pommerns.",
+        "ctaCall": "Ruf an und buche",
+        "ctaRooms": "Sieh dir die Apartments an",
+        "weatherTitle": "Wettervorhersage für Słupsk",
+        "weatherFallback": "Wetterdaten konnten nicht geladen werden. Überprüfe die Vorhersage auf der Seite",
         "max": "Max.",
         "min": "Min.",
         "wind": "Wind",
@@ -53,8 +53,8 @@
     },
     "Weather": {
         "title": "Wetter in Słupsk – 3 Tage",
-        "fallback": "Die Wettervorhersage konnte nicht abgerufen werden. Prüfen Sie direkt auf",
-        "button": "Details zur Vorhersage",
+        "fallback": "Es ist nicht gelungen, die Wettervorhersage abzurufen. Prüfe direkt auf",
+        "button": "Sieh dir die Details der Vorhersage an",
         "day": "Tag",
         "temperature": "max/min Temp.",
         "precipitation": "Niederschlag",
@@ -63,40 +63,40 @@
     "SeasonalCard": {
         "title": "Dziewanna empfiehlt heute",
         "date": "Datum:",
-        "item1": "Minz- und Brennnesseltee aus unserem Garten",
+        "item1": "Aufguss aus Minze und Brennnessel aus unserem Garten",
         "item2": "Hausgemachter Kirschlikör",
-        "item3": "Spaziergang im Wald und Kräuter sammeln",
-        "item4": "Radtour zum Krzynia-See",
-        "item5": "Sonnenbaden in Ustka oder Orzechowo",
+        "item3": "Ein Spaziergang im Wald und Kräuter sammeln",
+        "item4": "Eine Radtour zum Krzynia‑See",
+        "item5": "Strandtage in Ustka oder Orzechowo",
         "item6": "Abendessen im Garten mit Grill oder Lagerfeuer",
-        "cta": "Entdecken Sie lokale Attraktionen"
+        "cta": "Entdecke lokale Attraktionen"
     },
     "AccommodationBox": {
         "title": "Unterkünfte",
-        "description": "Wohnen Sie in einem der 6 gemütlichen Studio-Apartments mit eigener Küche und Bad. Umgeben von Natur, Garten, Tieren und saisonalem Pool – ideal für Paare und Familien.",
-        "cta": "Alle Apartments anzeigen"
+        "description": "Wohne in einem der 6 gemütlichen Studio‑Apartments mit eigener Küche und Bad. Umgeben von Natur, Garten, Tieren und einem saisonalen Pool – ideal für Paare und Familien.",
+        "cta": "Sieh dir die Apartments an"
     },
     "SeeAndDoBox": {
-        "title": "Was man in der Umgebung tun kann",
-        "description": "Entdecken Sie Radwege, Waldpfade, Pilzsammeln, Kajaktouren auf dem Krzynia-See, Ziegenkäse-Verkostung, Lagerfeuer und weitere Aktivitäten rund um Dziewanna.",
-        "cta": "Alle Aktivitäten"
+        "title": "Was man in der Gegend machen kann",
+        "description": "Entdecke Radwege, Waldpfade, Pilzesammeln, Kajaktouren auf dem Krzynia‑See, Ziegenkäseverkostung, Lagerfeuer und weitere Attraktionen rund um Dziewanna.",
+        "cta": "Alle Attraktionen"
     },
     "season": {
         "spring": {
             "title": "Frühling in Dziewanna",
-            "description": "Der Frühling an der Ostsee ist die Zeit des Erwachens. In Dziewanna können Sie die erwachenden Wälder beobachten, den Gesang der Vögel hören und die ersten warmen Tage genießen. Die ideale Zeit für Radtouren durch Kaschubien und Spaziergänge über die umliegenden Wiesen."
+            "description": "Der Frühling in Pommern ist die Zeit des Erwachens der Natur. In Dziewanna kannst du beobachten, wie die Wälder zum Leben erwachen, dem Vogelgesang lauschen und die ersten warmen Tage genießen. Die ideale Zeit für Fahrradtouren durch die Kaschubei und Spaziergänge über die umliegenden Wiesen."
         },
         "summer": {
             "title": "Sommer in Dziewanna",
-            "description": "Die Sommermonate sind voller Sonne, Abkühlung im Gartenpool und abendlichen Lagerfeuern unter dem Sternenhimmel. Dziewanna ist der perfekte Ort für Strandurlaub in der Natur – fernab des Trubels und doch in der Nähe des Meeres, von Ustka und dem Slowinzischen Nationalpark."
+            "description": "Die Sommermonate sind voller Sonne, Baden im Gartenpool und abendliche Lagerfeuer unter den Sternen. Dziewanna ist der perfekte Ort für einen Urlaub in der Nähe der Natur – fern vom Trubel und doch nah am Meer, an Ustka und dem Slowinzischen Nationalpark."
         },
         "autumn": {
             "title": "Herbst in Dziewanna",
-            "description": "Der Herbst in Kaschubien begeistert mit Farben und Waldduft. Es ist die Zeit des Pilzesammelns, der Spaziergänge durch goldene Blätter und der Abende am Kamin. In Dziewanna spüren Sie die echte Ruhe und Magie dieser besonderen Jahreszeit."
+            "description": "Der Herbst in der Kaschubei begeistert mit Farben und dem Duft des Waldes. Es ist die Zeit des Pilzesammelns, der Spaziergänge durch das goldene Laub und der Abende am Kamin. In Dziewanna spürst du die wahre Ruhe und Magie dieser besonderen Jahreszeit."
         },
         "winter": {
             "title": "Winter in Dziewanna",
-            "description": "Der Winter in Dziewanna bedeutet Ruhe, Schnee und Gemütlichkeit. Die ideale Zeit für Erholung am Kamin, heißen Tee mit Kräutern aus unserem Garten und lange Gespräche in der stimmungsvollen Gemeinschaftsküche. Vielleicht eine Pferdeschlittenfahrt oder ein Spaziergang im winterlichen Wald?"
+            "description": "Der Winter in Dziewanna ist Stille, Schnee und Gemütlichkeit. Die ideale Zeit, um am Feuer zu entspannen, heißen Kräutertee aus unserem Garten zu trinken und lange Gespräche in der stimmungsvollen Gemeinschaftsküche zu führen. Oder wie wäre es mit einer Schlittenfahrt oder einem Spaziergang durch den Winterwald?"
         }
     },
     "button": {
@@ -106,28 +106,28 @@
     "aboutDziewanna": {
         "pretitle": "Zimmer mit Seele",
         "title": "Über Dziewanna",
-        "description": "Dziewanna ist mehr als ein Bett. Es ist ein Ort, an dem die Zeit stillsteht und der Alltag vor dem Gartentor bleibt. Tauchen Sie ein in die Ruhe der kaschubischen Natur, umgeben vom Gesang der Vögel, dem Duft der Kräuter und der Sonne, die durch die Blätter scheint. Unsere Apartments sind ein Rückzugsort mit Herz – für Familien, Paare, Alleinreisende und Radfahrer. Abseits der Massen, nahe am Wald, am Lagerfeuer und an guten Gesprächen. Dziewanna ist ein Zuhause mit Seele – fühlen Sie sich eingeladen.",
-        "seeApartments": "Apartments ansehen",
-        "callToBook": "Anrufen, um zu buchen",
-        "paragraph1": "Im Herzen der kaschubischen Natur, zwischen Wäldern, Wiesen und Stille, liegt Dziewanna – ein Ort, der zu jeder Jahreszeit begeistert.",
-        "paragraph2": "Er wurde mit Leidenschaft von Izabela Gordonowicz und Tomasz Tisler geschaffen. Dziewanna ist mehr als eine Unterkunft. Es ist ein Raum, in dem jeder Ruhe und seinen eigenen Rhythmus findet.",
-        "spring": "Im Frühling erwacht alles zum Leben und der Garten füllt sich mit frischem Grün.",
-        "summer": "Im Sommer duftet es nach Kräutern, Lagerfeuern und Lachen im Garten.",
-        "autumn": "Im Herbst schimmert die Natur golden und die Früchte im Garten reifen.",
-        "winter": "Im Winter bedeckt der weiße Schnee alles – die perfekte Zeit, sich am Kamin zu wärmen.",
+        "description": "Dziewanna ist mehr als nur eine Unterkunft. Es ist ein Ort, an dem die Zeit stehen bleibt und der Alltag vor dem Gartentor bleibt. Tauche ein in die Ruhe der kaschubischen Natur, umgeben vom Vogelgesang, dem Duft von Kräutern und Sonnenlicht, das durch die Blätter fällt. Unsere Apartments sind ein mit Herz geschaffener Zufluchtsort – für Familien, Paare, Alleinreisende und Radfahrer. Fernab der Massen, nahe dem Wald, Lagerfeuern und guten Gesprächen. Dziewanna ist ein Haus mit Seele – fühle dich eingeladen.",
+        "seeApartments": "Sieh dir die Apartments an",
+        "callToBook": "Ruf an, um zu buchen",
+        "paragraph1": "Im Herzen der kaschubischen Natur, zwischen Wäldern, Wiesen und Ruhe, liegt Dziewanna – ein Ort, der zu jeder Jahreszeit begeistert.",
+        "paragraph2": "Mit Leidenschaft von Izabela Gordonowicz und Tomasz Tisler geschaffen, ist Dziewanna mehr als nur ein Übernachtungsort. Es ist ein Raum, in dem jeder Ruhe und seinen eigenen Rhythmus findet.",
+        "spring": "Im Frühling erwacht alles zum Leben und der Garten füllt sich mit Grün.",
+        "summer": "Im Sommer duftet es nach Kräutern, Lagerfeuern und Gelächter im Garten.",
+        "autumn": "Im Herbst glänzt die Natur in Gold und im Obstgarten reifen die Früchte.",
+        "winter": "Im Winter bedeckt alles weißer Flaum – die perfekte Zeit, um am Kamin auszuruhen.",
         "experiencesTitle": "Gäste können:",
         "gardenWalk": "durch den ökologischen Garten spazieren und wilde Kräuter entdecken;",
-        "fruitTasting": "frische saisonale Früchte direkt von den Büschen sammeln und probieren;",
-        "bonfire": "Holz für das Sommerlagerfeuer unter dem Sternenhimmel vorbereiten;",
-        "homemadeProducts": "Zeit mit den Gastgebern verbringen und hausgemachte Liköre und Ziegenkäsesorten probieren.",
-        "paragraph3": "Dziewanna ist ein Ort, an dem man im Einklang mit der Natur lebt. Jede Jahreszeit hat ihren eigenen Rhythmus und eine Geschichte zu erzählen.",
-        "invite": "Wir laden Sie nach Dziewanna ein – Zimmer mit Seele."
+        "fruitTasting": "frische saisonale Früchte direkt von den Sträuchern sammeln und probieren;",
+        "bonfire": "Holz für ein sommerliches Lagerfeuer unter den Sternen vorbereiten;",
+        "homemadeProducts": "Zeit mit den Gastgebern verbringen und Liköre sowie Käse aus Ziegenmilch probieren.",
+        "paragraph3": "Dziewanna ist ein Ort, an dem der Mensch im Einklang mit der Natur lebt. Wo jede Jahreszeit ihren eigenen Rhythmus und ihre Geschichte zu erzählen hat.",
+        "invite": "Wir laden dich zu Dziewanna ein – Zimmer mit Seele."
     },
     "accommodation": {
         "title": "Unsere Unterkünfte",
-        "intro": "In Dziewanna bieten wir Unterkünfte mit Herz – jedes Apartment ist eine Kombination aus Komfort und Naturkontakt.",
+        "intro": "In Dziewanna bieten wir Unterkünfte mit Seele – jedes Apartment verbindet Komfort mit dem Kontakt zur Natur.",
         "apartments": {
-            "sampleTitle": "Apartment Wald",
+            "sampleTitle": "Wald",
             "sampleDescription": "Gemütliches Apartment mit Blick auf den Wald und Zugang zum Garten."
         }
     },
@@ -137,7 +137,7 @@
     },
     "heroNoclegi": {
         "title": "Dziewanna – Unterkünfte mit Seele, die im Herzen bleiben",
-        "description": "Wohnen Sie in gemütlichen Apartments mit eigener Küche und Heizung. Am Abend können Sie am Lagerfeuer im Garten oder beim gemeinsamen Grillen mit anderen Gästen teilnehmen. Im Lounge mit Kamin warten Gespräche, Lachen und Ruhe. Dziewanna ist nicht nur eine Unterkunft – es ist ein Ort, der Menschen und Natur verbindet."
+        "description": "Wohne in gemütlichen Apartments mit eigener Küche und Heizung. Abends nimm am Lagerfeuer im Garten teil oder grille gemeinsam mit anderen Gästen. Im Aufenthaltsraum mit Kamin warten Gespräche, Lachen und Ruhe. Dziewanna ist nicht nur eine Unterkunft – es ist ein Ort, der Menschen und Natur verbindet."
     },
     "facilities": {
         "apartments": "Apartments",
@@ -149,12 +149,112 @@
         "nonSmoking": "Nichtraucherzimmer",
         "breakfast": "Frühstück",
         "bbq": "Grillplatz",
-        "commonKitchenFireplace": "Gemeinschaftsküche mit Kamin",
+        "commonKitchenFireplace": "Gemeinsame Küche mit Kamin",
         "familyFriendly": "Familienfreundlich",
         "terrace": "Sonnenterrasse",
         "dedicatedKitchen": "Eigene Küche und Geschirr",
-        "bikes": "Fahrräder zur Verfügung",
-        "showMore": "Alle Ausstattungen anzeigen",
+        "bikes": "Fahrräder verfügbar",
+        "showMore": "Alle Annehmlichkeiten anzeigen",
         "showLess": "Weniger anzeigen"
+    },
+    "apartments": {
+        "ctaViewRoom": "Zimmer anzeigen",
+        "lawenda": {
+            "title": "Lavendel",
+            "description": "Romantisches Apartment mit Blick auf den Garten, ideal für Paare, die Ruhe und Natur suchen. Eine eigene Küche, ein Bad und der Duft von Lavendel vor dem Fenster schaffen die perfekte Atmosphäre für einen Urlaub in Meeresnähe."
+        },
+        "chaber": {
+            "title": "Kornblume",
+            "description": "Ein gemütliches Interieur mit blauen Akzenten, inspiriert von Kornblumen aus den umliegenden Wiesen. Eine großartige Wahl für Alleinreisende oder Paare. Küche, Bad und Blick auf die Natur inklusive."
+        },
+        "dziewanna": {
+            "title": "Dziewanna",
+            "description": "Unser Flaggschiff‑Zimmer – geräumig, hell und mit Seele. Eine eigene Küche, ein komfortables Bad und Fenster zum grünen Garten machen es schwer, wieder abzureisen."
+        },
+        "mak": {
+            "title": "Mohn",
+            "description": "Ein warmes und sonniges Apartment mit roten Details, inspiriert von Mohnblumen auf kaschubischen Feldern. Ideal für einen Sommerurlaub für ein Paar oder eine Familie mit Kind. Ruhe, Vogelgesang und Naturnähe."
+        },
+        "malwa": {
+            "title": "Malve",
+            "description": "Familienapartment mit Zugang zum Garten, großer Küche und eigenem Bad. Naturinspirationen und kaschubische Malven in den Details. Ein komfortabler Aufenthalt nahe den Stränden und dem Slowinzischen Nationalpark."
+        },
+        "roza": {
+            "title": "Rose",
+            "description": "Ein zartes, feminines Apartment für alle, die Eleganz und Ruhe suchen. Ideal für ein Wochenende zu zweit oder eine romantische Flucht aus der Stadt. Balkon, Küche und gemütliches Interieur warten."
+        },
+        "niezapominajka": {
+            "title": "Vergissmeinnicht",
+            "description": "Zimmer mit Blick auf den Wald und Zugang zum grünen Garten. Der Name verpflichtet – diesen Ort kann man nicht vergessen. Eine großartige Basis für Pilzesammeln, Radfahren und Spaziergänge durch die Kaschubei."
+        }
+    },
+    "reviews": {
+        "globalTitle": "Was sagen unsere Gäste?",
+        "badgeTitle": "Gäste empfehlen",
+        "count": "{count} Bewertungen",
+        "sectionTitle": "Unsere Gäste bewerten uns mit {score}",
+        "sectionSubtitle": "Echte Bewertungen unserer Besucher, {count}+ Mal wurden wir für unsere Gastfreundschaft gelobt",
+        "cleanliness": "Makellose Sauberkeit",
+        "staff": "Herzlicher und hilfreicher Service",
+        "comfort": "Komfort und heimelige Atmosphäre",
+        "value": "Große Qualität zu einem vernünftigen Preis",
+        "location": "Ideale Lage inmitten der Natur",
+        "facilities": "Ausstattung, die den Unterschied macht",
+        "1": {
+            "review": "Großartige Lage – versteckt im Wald und zwischen Feldern, nahe dem Meer. Die Unterkunft ist faszinierend und hat einige schöne Überraschungen.",
+            "name": "Marek aus Poznań"
+        },
+        "2": {
+            "review": "Ich war zum zweiten Mal im Dziewanna und werde wahrscheinlich wiederkommen. Es ist der perfekte Ort, um einen Reset von der Zivilisation zu machen. Vor Ort gibt es alles, was man braucht, auch Kinder werden sich nicht langweilen (es gibt einen Pool). Ein stimmungsvoller Ort.",
+            "name": "Kasia aus Sopot"
+        },
+        "4": {
+            "review": "Ein sehr stimmungsvoller Ort, großartige Gegend für Spaziergänge. Nahe der Stadt und dem Meer. Die Zimmer sind blitzsauber und gepflegt und die Besitzer die besten der Welt!",
+            "name": "Łukasz aus Poznań"
+        },
+        "3": {
+            "review": "Schöne Lage, Ruhe, Frieden, in der Nähe vieler schöner Wanderrouten.",
+            "name": "Ania aus Bydgoszcz"
+        },
+        "5": {
+            "review": "Ein Haus mit Seele, mit einem schönen Garten, Pool und herumlaufenden Ziegen. In der Umgebung Wälder voller Pilze, nahe reizvoller Strände. Wundervolle Gastgeber mit Leidenschaft.",
+            "name": "Wojtek aus Zakopane"
+        },
+        "10": {
+            "review": "Die Unterkunft liegt ruhig, die Gastgeber sind sehr freundlich und hilfsbereit, das Frühstück ist lecker, die Kommunikation war auch auf Deutsch möglich.",
+            "name": "Monika aus Hamburg"
+        },
+        "7": {
+            "review": "Wundervoller Ort mitten im Wald. Fantastische, hilfsbereite, nette Besitzerin, gutes Frühstück, tolle Atmosphäre. Angemessene Entfernung zum Konzerttal Dolina Charlotty und zum Slowinzischen Nationalpark. Sehr zu empfehlen.",
+            "name": "Agnieszka aus Olsztyn"
+        },
+        "11": {
+            "review": "Super ruhige Gegend, von Wäldern umgeben. Ein Ort für Menschen, die dem Stadtlärm entfliehen. Große, geräumige, saubere Zimmer. Empfehlenswert.",
+            "name": "Jan aus Zielona Góra"
+        },
+        "9": {
+            "review": "Ein Ort für Liebhaber von Ruhe und Stille. Sehr nette Gastgeber, Frühstück köstlich aus lokalen Produkten zubereitet. Ich empfehle es herzlich.",
+            "name": "Sylwia aus Toruń"
+        },
+        "6": {
+            "review": "Sauber, ruhig, nahe an der Natur, friedlich, stimmungsvoll und entspannend. Magisch!",
+            "name": "Justyna aus Rzeszów"
+        },
+        "8": {
+            "review": "Ein außergewöhnliches Objekt im Herzen des Waldes. Ruhe, wunderschön gestaltete Umgebung, Kontakt mit der Natur – es gibt sogar Ziegen. Wer keine langen Spaziergänge im Wald mag, kann vor Ort im Garten entspannt ausruhen, mit einem Buch in der Hand oder beim Grillen. Die Zimmer befinden sich in einem fantastisch revitalisierten Wirtschaftsgebäude mit einem riesigen Salon für gemeinsame Mahlzeiten oder Treffen. Übrigens habe ich schon lange kein so wunderbares hausgemachtes Frühstück gegessen. Dziewanna kann sowohl Ruhe suchende Alleinreisende als auch große Gruppen beherbergen. Insgesamt hat man nicht das ‘Hotelgefühl’, sondern eine heimelige Atmosphäre, zum Beispiel durch die Gestaltung der Apartments. Und egal was man schreibt: Am wichtigsten sind die großartigen Gastgeber – freundlich, sehr sympathisch, immer zur Verfügung, einfach normal. Sehr zu empfehlen.",
+            "name": "Grzegorz aus Kraków"
+        },
+        "12": {
+            "review": "Sehr schöner, stimmungsvoller Ort. Ich habe zwei Nächte verbracht. Es war sehr komfortabel – alles, was vorhanden sein sollte, war vorhanden (gut ausgestattete Küche). Man kann kleine Kinder ohne Angst herumlaufen lassen. Einige Tiere – Katzen, Hunde und Ziegen – sorgen für zusätzliche Atmosphäre und Attraktion. Mit einem kleinen Kind fand ich alles, was ich brauchte. Ich empfehle es.",
+            "name": "Tomek aus Bielawa"
+        },
+        "13": {
+            "review": "Wunderschön gelegene Agrotouristik nahe Słupsk. Wundervoller großer Garten mit Platz für ein Lagerfeuer. Sehr nette und sehr hilfsbereite Besitzer. Wenn du einen ruhigen, friedlichen Ort zum Entspannen suchst, ist Dziewanna ein Volltreffer.",
+            "name": "Tomasz aus Wolsztyn"
+        },
+        "14": {
+            "review": "Ein sehr stimmungsvoller Ort, Wald, Felder, Entspannung, ein Reset von der Zivilisation. Nur das Zirpen der Grillen ringsum. Vor Ort alle notwendigen Annehmlichkeiten.",
+            "name": "Basia aus Zielona Góra"
+        }
     }
 }
