@@ -38,6 +38,7 @@ const Reviews = () => {
               className="relative flex flex-col rounded-md bg-[#b2cd9c]/20 p-6 text-sm text-[#1F1F1F] shadow-md"
               style={{ gridArea: area }}
             >
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
               <p className="mb-4 italic">"{t(`reviews.${index + 1}.review`)}"</p>
               <div className="mt-auto flex items-center justify-between">
                 <p className="font-semibold">{t(`reviews.${index + 1}.name`)}</p>
@@ -59,6 +60,7 @@ const Reviews = () => {
             key={index}
             className="relative flex flex-col rounded-md bg-white p-6 text-sm text-[#1F1F1F] shadow-md"
           >
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             <p className="mb-4 italic">"{t(`reviews.${index + 1}.review`)}"</p>
             <div className="mt-auto flex items-center justify-between">
               <p className="font-semibold">{t(`reviews.${index + 1}.name`)}</p>
