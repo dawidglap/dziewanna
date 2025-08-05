@@ -138,5 +138,23 @@
     "heroNoclegi": {
         "title": "Dziewanna – noclegi z duszą, które zostają w sercu",
         "description": "Zamieszkaj w przytulnych apartamentach z własną kuchnią i ogrzewaniem. Wieczorem dołącz do ogniska w ogrodzie lub wspólnego grilla z innymi gośćmi. W lounge z kominkiem czekają rozmowy, śmiech i spokój. Dziewanna to nie tylko nocleg – to miejsce, które łączy ludzi i naturę."
+    },
+    "facilities": {
+        "apartments": "Apartamenty",
+        "petsAllowed": "Zwierzęta mile widziane",
+        "freeParking": "Bezpłatny parking",
+        "freeWifi": "Bezpłatne Wi-Fi",
+        "view": "Widok na ogród i naturę",
+        "privateBathroom": "Prywatna łazienka",
+        "nonSmoking": "Pokoje dla niepalących",
+        "breakfast": "Śniadanie",
+        "bbq": "Miejsce na grilla",
+        "commonKitchenFireplace": "Wspólna kuchnia z kominkiem",
+        "familyFriendly": "Przyjazne rodzinom",
+        "terrace": "Taras słoneczny",
+        "dedicatedKitchen": "Własna kuchnia i zastawa",
+        "bikes": "Rowery do dyspozycji",
+        "showMore": "Pokaż wszystkie udogodnienia",
+        "showLess": "Pokaż mniej"
     }
 }

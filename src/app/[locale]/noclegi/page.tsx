@@ -1,7 +1,9 @@
 // src/app/[locale]/noclegi/page.tsx
 import { useTranslations } from "next-intl";
 import { Metadata } from "next";
-import HeroNoclegi from "@/components/HeroNoclegi"; // Assicurati che il path sia corretto
+import HeroNoclegi from "@/components/HeroNoclegi";
+import Apartaments from "@/components/Apartaments";
+import Facilities from "../../../components/Facilities/Facilities"
 
 export const metadata: Metadata = {
   title: "Dziewanna – noclegi z duszą w sercu Pomorza",
@@ -16,8 +18,8 @@ export default function NoclegiPage() {
     <>
       {/* Hero full screen */}
       <HeroNoclegi />
-
-      {/* Main content */}
+      <Facilities />
+      <Apartaments />
     
     </>
   );
