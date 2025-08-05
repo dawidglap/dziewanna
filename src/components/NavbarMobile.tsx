@@ -57,11 +57,11 @@ export default function NavbarMobile() {
   ];
 
   return (
-    <div className="xl:hidden fixed top-0 w-full z-50">
+    <div className="xl:hidden fixed top-0 w-full z-50 ">
       {/* Top bar sempre sopra */}
       <div
         className={`flex justify-between items-center px-6 lg:px-12 xl:px-16 transition-all duration-500 ${
-          compact ? 'py-2' : 'py-4'
+          compact ? 'py-3' : 'py-6'
         }`}
         style={{
           backgroundColor: `rgba(17, 26, 32, ${backgroundOpacity})`,

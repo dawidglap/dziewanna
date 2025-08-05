@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import Poster from '../../public/poster.webp';
+import Link from 'next/link';
 
 import { Leaf, Sun, Snowflake, Flame, Apple, MountainSnow, Trees, Flower, GlassWater } from "lucide-react";
 
@@ -24,7 +25,7 @@ export default function AboutDziewanna() {
     </h2>
   </div>
 
-  <div className="h-full rounded-xl overflow-hidden shadow-lg -mt-20">
+  <div className="h-full rounded-sm overflow-hidden shadow-lg -mt-20">
     <Image
       src={Poster}
       alt="Dziewanna Main"
@@ -41,7 +42,7 @@ export default function AboutDziewanna() {
   <div className="flex flex-col md:flex-row gap-6">
     {/* Immagine 1 */}
     <div className="md:w-1/2 mt-0 md:mt-10">
-      <div className="aspect-square rounded-xl overflow-hidden shadow-md">
+      <div className="aspect-square rounded-sm overflow-hidden shadow-md">
         <Image
           src={Poster}
           alt="Dziewanna small 1"
@@ -52,7 +53,7 @@ export default function AboutDziewanna() {
     </div>
     {/* Immagine 2 */}
     <div className="md:w-1/2 mt-0 md:-mt-10">
-      <div className="aspect-square rounded-xl overflow-hidden shadow-md">
+      <div className="aspect-square rounded-sm overflow-hidden shadow-md">
         <Image
           src={Poster}
           alt="Dziewanna small 2"
@@ -86,7 +87,7 @@ export default function AboutDziewanna() {
       <p className="m-0">{t("aboutDziewanna.autumn")}</p>
     </div>
     <div className="flex items-center gap-2">
-      <MountainSnow className="w-5 h-5 text-blue-500" />
+      <Snowflake className="w-5 h-5 text-blue-500" />
       <p className="m-0">{t("aboutDziewanna.winter")}</p>
     </div>
   </div>
@@ -121,12 +122,24 @@ export default function AboutDziewanna() {
 
   {/* Bottoni */}
   <div className="mt-4 flex gap-4 flex-wrap">
-    <button className="px-6 py-2 bg-black text-white rounded-full text-sm font-medium">
-      {t('aboutDziewanna.seeApartments')}
-    </button>
-    <button className="px-6 py-2 border border-black rounded-full text-sm font-medium">
-      {t('aboutDziewanna.callToBook')}
-    </button>
+   <Link
+        href="tel:+48730733399"
+        className="bg-[#1F1F1F] text-white text-center font-semibold px-6 py-3 rounded-sm
+                 shadow hover:bg-[#B2CD9C] hover:text-black transition
+                 text-sm sm:text-base md:text-lg w-full sm:w-auto"
+      >
+        {t('aboutDziewanna.callToBook')}
+      </Link>
+
+      {/* 🟦 Bottone secondario: Vedi appartamenti */}
+      <Link
+        href="/pokoje"
+        className="bg-white border border-[#1F1F1F] text-[#1F1F1F] text-center font-semibold px-6 py-3 rounded-sm
+                 hover:bg-[#B2CD9C] hover:border-[#B2CD9C] hover:text-black transition
+                 text-sm sm:text-base md:text-lg w-full sm:w-auto"
+      >
+        {t('aboutDziewanna.seeApartments')}
+      </Link>
   </div>
 </div>
 

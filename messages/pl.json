@@ -134,5 +134,9 @@
     "notFound": {
         "message": "Ups! Taka strona nie istnieje lub została przeniesiona.",
         "backHome": "Wróć na stronę główną"
+    },
+    "heroNoclegi": {
+        "title": "Dziewanna – noclegi z duszą, które zostają w sercu",
+        "description": "Zamieszkaj w przytulnych apartamentach z własną kuchnią i ogrzewaniem. Wieczorem dołącz do ogniska w ogrodzie lub wspólnego grilla z innymi gośćmi. W lounge z kominkiem czekają rozmowy, śmiech i spokój. Dziewanna to nie tylko nocleg – to miejsce, które łączy ludzi i naturę."
     }
 }

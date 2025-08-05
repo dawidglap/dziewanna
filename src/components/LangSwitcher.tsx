@@ -22,7 +22,7 @@ export default function LangSwitcher() {
   };
 
   return (
-    <div className="relative z-30 ">
+    <div className="relative z-30 mt-2 xl:mt-0">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="text-white hover:text-[#B2CD9C] transition"
