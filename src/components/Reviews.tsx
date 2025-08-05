@@ -101,7 +101,7 @@ const Reviews = () => {
               style={{ gridArea: area }}
               variants={itemVariants}
             >
-              <p className="mb-4 italic">&quot;{t(`reviews.${index + 1}.review`)}&quot;</p>
+              <p className="mb-4 italic">"{t(`reviews.${index + 1}.review`)}"</p>
               <div className="mt-auto flex items-center justify-between">
                 <p className="font-semibold">{t(`reviews.${index + 1}.name`)}</p>
                 <div className="flex items-center gap-1">
