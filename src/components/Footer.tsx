@@ -70,7 +70,7 @@ export default function Footer() {
           <MapPin className="w-5 h-5 text-[#B2CD9C]" />
           <span>Dziewanny 10, 76-248 Brzezinec</span>
         </div>
-        <div className="flex items-center justify-end gap-3">
+        <div className="flex items-center md:justify-end gap-3">
           <Phone className="w-5 h-5 text-[#B2CD9C]" />
           <a href="tel:+48600243754" className="hover:underline">600 243 754</a>
         </div>
