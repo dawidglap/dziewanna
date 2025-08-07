@@ -3,13 +3,6 @@ import { notFound } from 'next/navigation';
 import RoomTabs from '@/components/RoomTabs';
 import LayoutWrapper from '@/components/LayoutWrapper';
 
-type Props = {
-  params: {
-    roomId: string;
-    locale: string;
-  };
-};
-
 const VALID_ROOMS = [
   'chaber',
   'dziewanna',
@@ -20,9 +13,16 @@ const VALID_ROOMS = [
   'roza',
 ];
 
-export default async function RoomPage({ params }: Props) {
-  
-  const { roomId } = params;
+type RoomPageProps = {
+  params: {
+    roomId: string;
+    locale: string;
+  };
+};
+
+export default async function RoomPage({ params }: RoomPageProps) {
+    
+  const { roomId } = await params; // ✅ obbligatorio in Next.js 15
 
   if (!VALID_ROOMS.includes(roomId)) {
     notFound();
@@ -37,4 +37,3 @@ export default async function RoomPage({ params }: Props) {
     </>
   );
 }
-
