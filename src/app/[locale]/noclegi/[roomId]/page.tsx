@@ -1,5 +1,4 @@
 import HeroRooms from '@/components/HeroRooms';
-import { useTranslations } from 'next-intl';
 import { notFound } from 'next/navigation';
 import RoomTabs from '@/components/RoomTabs';
 import LayoutWrapper from '@/components/LayoutWrapper';
@@ -21,8 +20,8 @@ const VALID_ROOMS = [
   'roza',
 ];
 
-export default function RoomPage({ params }: Props) {
-  const t = useTranslations('Room');
+export default async function RoomPage({ params }: Props) {
+  
   const { roomId } = params;
 
   if (!VALID_ROOMS.includes(roomId)) {
@@ -31,10 +30,11 @@ export default function RoomPage({ params }: Props) {
 
   return (
     <>
-    <HeroRooms roomId={roomId} />
-    <LayoutWrapper>
-    <RoomTabs roomId={roomId} />
-    </LayoutWrapper>
+      <HeroRooms roomId={roomId} />
+      <LayoutWrapper>
+        <RoomTabs roomId={roomId} />
+      </LayoutWrapper>
     </>
   );
 }
+
