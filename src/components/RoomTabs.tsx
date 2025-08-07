@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import clsx from 'clsx';
+import RoomTabNavigation from './RoomTabNavigation';
+import { AnimatePresence, motion } from 'framer-motion';
 
 const TABS = ['house', 'sleeping', 'eating', 'bathing', 'relaxing'];
 
@@ -27,7 +29,7 @@ export default function RoomTabs({ roomId }: Props) {
       </div>
 
       {/* Tabs + CTA on desktop */}
-      <div className="flex flex-wrap xl:flex-nowrap justify-start xl:justify-between items-center  xl:gap-8 mb-8">
+      <div className="flex flex-wrap xl:flex-nowrap justify-start xl:justify-between items-center xl:gap-8 mb-8">
         <div className="grid grid-cols-2 sm:grid-cols-3 xl:flex gap-2 w-full xl:w-auto">
           {TABS.map((tab) => (
             <button
@@ -37,7 +39,7 @@ export default function RoomTabs({ roomId }: Props) {
                 'uppercase text-sm sm:text-base px-4 py-2 border',
                 'transition rounded-sm font-semibold tracking-wider w-full sm:w-auto text-center',
                 activeTab === tab
-                  ? 'bg-[#3F7D58] text-white border-[#3F7D58]'
+                  ? 'bg-[#B2CD9C] text-white border-[#B2CD9C]'
                   : 'bg-white text-[#1F1F1F] border-gray-300 hover:bg-[#B2CD9C] hover:text-black'
               )}
             >
@@ -57,21 +59,41 @@ export default function RoomTabs({ roomId }: Props) {
         </div>
       </div>
 
-      {/* Tab content */}
-      <div>
-        <RoomTabContent tab={activeTab} roomId={roomId} />
-      </div>
+      {/* Tab content with animation */}
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={activeTab}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          transition={{ duration: 0.4 }}
+        >
+          <RoomTabContent tab={activeTab} roomId={roomId} setTab={setActiveTab} />
+        </motion.div>
+      </AnimatePresence>
     </section>
   );
 }
 
-function RoomTabContent({ tab, roomId }: { tab: string; roomId: string }) {
+function RoomTabContent({
+  tab,
+  roomId,
+  setTab,
+}: {
+  tab: string;
+  roomId: string;
+  setTab: (tab: string) => void;
+}) {
   const t = useTranslations('Room');
 
   return (
     <div>
-      <h2 className="text-3xl font-bold mb-4 text-center py-14 md:py-20 ">{t(`${tab}.title`)}</h2>
-      <p className="text-base text-gray-700 mb-6">{t(`${tab}.description`)}</p>
+      <h2 className="text-5xl font-bold mb-4 text-center py-14 md:py-20">
+        {t(`${tab}.title`)}
+      </h2>
+      <p className="pb-10 md:pb-16 text-base text-gray-700 mb-6 max-w-4xl mx-auto">
+        {t(`${tab}.description`)}
+      </p>
 
       {/* Responsive image grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -79,6 +101,9 @@ function RoomTabContent({ tab, roomId }: { tab: string; roomId: string }) {
         <div className="aspect-[2/3] bg-gray-200" />
         <div className="aspect-[2/3] bg-gray-300" />
       </div>
+
+      {/* Navigation arrows */}
+      <RoomTabNavigation currentTab={tab} setCurrentTab={setTab} />
     </div>
   );
 }

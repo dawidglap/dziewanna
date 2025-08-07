@@ -291,7 +291,7 @@
             "description": "Tu będzie opis Chabra po polsku"
         },
         "tabs": {
-            "house": "Dom i ogród",
+            "house": "Dom i Ogród",
             "sleeping": "Spanie",
             "eating": "Jedzenie",
             "bathing": "Kąpiel",
@@ -299,8 +299,8 @@
         },
         "ctaCall": "Zadzwoń i zarezerwuj",
         "house": {
-            "title": "Dom i ogród",
-            "description": "Opis wspólny dla wszystkich apartamentów..."
+            "title": "Dom i Ogród",
+            "description": "Dziewanna to ponad 130-letnia kaszubska stodoła z duszą, odnowiona z troską o historię i naturę. Położona w Brzezińcu, wśród lasów i łąk Pomorza, niedaleko Słupska i Ustki, oferuje nocleg blisko przyrody, z dala od zgiełku. Wnętrze kryje oryginalne belki, cegły i meble vintage – ślady dawnych czasów, które z miłością przywracamy do życia. W ogrodzie rosną zioła, warzywa, poziomki, maliny i porzeczki, z których możesz korzystać podczas pobytu. To miejsce, gdzie czas zwalnia, a dom i ogród – wspólne dla wszystkich apartamentów – tworzą przestrzeń spokoju, relaksu i bliskości z naturą na Kaszubach."
         },
         "sleeping": {
             "title": "Sen pełen ciszy",
