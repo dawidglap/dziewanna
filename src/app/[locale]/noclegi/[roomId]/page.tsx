@@ -14,11 +14,13 @@ const VALID_ROOMS = [
 ];
 
 type RoomPageProps = {
-  params: {
+  params: Awaited<{
     roomId: string;
     locale: string;
-  };
+  }>;
 };
+
+
 
 export default async function RoomPage({ params }: RoomPageProps) {
     
