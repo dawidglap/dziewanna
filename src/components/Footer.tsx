@@ -13,6 +13,7 @@ import {
   FaBinoculars,
 } from 'react-icons/fa'
 import { MapPin, Phone, Mail } from 'lucide-react'
+import LayoutWrapper from './LayoutWrapper'
 
 export default function Footer() {
   const t = useTranslations('Footer')
@@ -29,7 +30,8 @@ export default function Footer() {
   ]
 
   return (
-    <footer className=" text-black py-16 px-6">
+<LayoutWrapper>
+    <footer className=" text-black py-16">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
         {/* Logo */}
         <div>
@@ -80,5 +82,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    </LayoutWrapper>
   )
 }

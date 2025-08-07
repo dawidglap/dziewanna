@@ -185,7 +185,8 @@
         },
         "niezapominajka": {
             "title": "Niezapominajka",
-            "description": "Pokój z widokiem na las i dostępem do zielonego ogrodu. Nazwa zobowiązuje — tego miejsca nie da się zapomnieć. Świetna baza wypadowa na grzybobrania, rowery i spacery po Kaszubach."
+            "description": "Pokój z widokiem na las i dostępem do zielonego ogrodu. Nazwa zobowiązuje — tego miejsca nie da się zapomnieć. Świetna baza wypadowa na grzybobrania, rowery i spacery po Kaszubach.",
+            "heroSub": "Nie zapomnisz tego miejsca — jak błękitny kwiat w Twojej pamięci."
         }
     },
     "reviews": {
@@ -279,5 +280,31 @@
         "bbq": "Grillowanie",
         "forest": "Spacer po lesie",
         "birds": "Obserwacja ptaków"
+    },
+    "Room": {
+        "lawenda": {
+            "title": "Apartament Lawenda",
+            "description": "Tu będzie opis Lawendy po polsku"
+        },
+        "chaber": {
+            "title": "Apartament Chaber",
+            "description": "Tu będzie opis Chabra po polsku"
+        },
+        "tabs": {
+            "house": "Dom i ogród",
+            "sleeping": "Spanie",
+            "eating": "Jedzenie",
+            "bathing": "Kąpiel",
+            "relaxing": "Relaks"
+        },
+        "ctaCall": "Zadzwoń i zarezerwuj",
+        "house": {
+            "title": "Dom i ogród",
+            "description": "Opis wspólny dla wszystkich apartamentów..."
+        },
+        "sleeping": {
+            "title": "Sen pełen ciszy",
+            "description": "Wygodne łóżka, pachnąca pościel i widok na naturę..."
+        }
     }
 }
