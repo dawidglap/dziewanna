@@ -42,6 +42,15 @@ export default function NavbarDesktop() {
         <div className="text-white text-2xl font-bold tracking-widest select-none">
           DZIEWANNA
         </div>
+        {/* <Link href="/" className="block relative w-[320px] h-[80px] mt-[-40px]">
+  <Image
+    src="/logo-dziewanna.png"
+    alt="Dziewanna logo"
+    fill
+    className="object-contain"
+    priority
+  />
+</Link> */}
 
         {/* Links */}
         <div className="flex items-center space-x-8 text-white text-sm font-semibold tracking-wide uppercase">

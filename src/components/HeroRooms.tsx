@@ -16,7 +16,7 @@ export default function HeroRooms({ roomId }: Props) {
   if (!room) return null;
 
   return (
-    <section className="relative w-full  h-[400px] sm:h-[400px] md:h-[500px] xl:h-[100vh]">
+    <section className="relative w-full  h-[70vh] sm:h-[100vh] md:h-[100vh] xl:h-[100vh] max-h-[1080px]">
       {/* Background image */}
       <Image
         src={room.image}

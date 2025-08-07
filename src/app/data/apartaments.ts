@@ -39,6 +39,6 @@ export const apartments = [
         id: 'roza',
         titleKey: 'apartments.roza.title',
         descKey: 'apartments.roza.description',
-        image: '/heroRoza.webp',
+        image: '/heroRosa.webp',
     },
 ];
