@@ -1,5 +1,5 @@
 // src/app/[locale]/noclegi/page.tsx
-import { useTranslations } from "next-intl";
+
 import { Metadata } from "next";
 import HeroNoclegi from "@/components/HeroNoclegi";
 import Apartaments from "@/components/Apartaments";
@@ -15,7 +15,8 @@ export const metadata: Metadata = {
 };
 
 export default function NoclegiPage() {
-  const t = useTranslations("accommodation");
+  
+  
 
   return (
     <>

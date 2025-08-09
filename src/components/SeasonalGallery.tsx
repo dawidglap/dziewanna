@@ -114,7 +114,7 @@ const dynamicBottom = useMemo(() => {
 
 
 
-
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { image, titleKey, descKey } = SEASONS[currentSeasonIndex];
   const width = 50 + progress * 53;
   const height = 50 + progress * 53;

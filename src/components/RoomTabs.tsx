@@ -77,7 +77,7 @@ export default function RoomTabs({ roomId }: Props) {
 
 function RoomTabContent({
   tab,
-  roomId,
+  
   setTab,
 }: {
   tab: string;

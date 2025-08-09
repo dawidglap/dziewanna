@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import Poster from '../../public/poster.webp';
 import Link from 'next/link';
 
-import { Leaf, Sun, Snowflake, Flame, Apple, MountainSnow, Trees, Flower, GlassWater } from "lucide-react";
+import { Leaf, Sun, Snowflake, Flame, Apple, Trees, Flower, GlassWater } from "lucide-react";
 
 
 export default function AboutDziewanna() {
