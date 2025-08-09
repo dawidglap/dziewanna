@@ -16,9 +16,9 @@ const VALID_ROOMS = [
 export default async function RoomPage({
   params,
 }: {
-  params: { roomId: string; locale: string };
+  params: Promise<{ roomId: string; locale: string }>;
 }) {
-  const { roomId } = params;
+  const { roomId } = await params; // ✅ destruttura dopo await
 
   if (!VALID_ROOMS.includes(roomId)) {
     notFound();
