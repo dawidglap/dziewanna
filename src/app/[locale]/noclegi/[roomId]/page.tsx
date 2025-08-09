@@ -13,18 +13,12 @@ const VALID_ROOMS = [
   'roza',
 ];
 
-type RoomPageProps = {
-  params: Awaited<{
-    roomId: string;
-    locale: string;
-  }>;
-};
-
-
-
-export default async function RoomPage({ params }: RoomPageProps) {
-    
-  const { roomId } = await params; // ✅ obbligatorio in Next.js 15
+export default async function RoomPage({
+  params,
+}: {
+  params: { roomId: string; locale: string };
+}) {
+  const { roomId } = params;
 
   if (!VALID_ROOMS.includes(roomId)) {
     notFound();
