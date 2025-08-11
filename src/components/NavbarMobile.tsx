@@ -4,25 +4,15 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import {
-  
-  FaBicycle,
-  FaLeaf,
-  FaFire,
-  FaSpa,
-  FaTree,
-  FaWater,
-  FaWineGlassAlt,
-  FaBinoculars,
-  FaInstagram,
-  FaFacebookF,
+  FaBicycle, FaLeaf, FaFire, FaSpa, FaTree, FaWater,
+  FaWineGlassAlt, FaBinoculars, FaInstagram, FaFacebookF,
 } from 'react-icons/fa';
-
-
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import LangSwitcher from './LangSwitcher';
 
 export default function NavbarMobile() {
   const t = useTranslations('Navbar.mobile');
+  const locale = useLocale();
 
   const [open, setOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
@@ -36,13 +26,14 @@ export default function NavbarMobile() {
   const backgroundOpacity = Math.min(scrollY / 300, 1);
   const compact = scrollY > 200;
 
+  // stessi link della desktop, con locale dinamico
   const navLinks = [
-    { label: t('accommodation'), href: '#zakwaterowanie' },
-    { label: t('seeAndDo'), href: '#see-do' },
-    { label: t('about'), href: '#about' },
-    { label: t('reviews'), href: '#reviews' },
-    { label: t('faq'), href: '#faq' },
-    { label: t('location'), href: '#location' },
+    { label: t('accommodation'), href: `/${locale}/noclegi` },
+    { label: t('seeAndDo'),      href: `/${locale}/atrakcje` },
+    { label: t('about'),         href: `/${locale}/o-nas` },
+    { label: t('reviews'),       href: `/${locale}/opinie` },
+    { label: t('faq'),           href: `/${locale}/faq` },
+    { label: t('location'),      href: `/${locale}/dojazd` },
   ];
 
   const experiences = [
@@ -57,8 +48,8 @@ export default function NavbarMobile() {
   ];
 
   return (
-    <div className="xl:hidden fixed top-0 w-full z-50 ">
-      {/* Top bar sempre sopra */}
+    <div className="xl:hidden fixed top-0 w-full z-50">
+      {/* Top bar */}
       <div
         className={`flex justify-between items-center px-6 lg:px-12 xl:px-16 transition-all duration-500 ${
           compact ? 'py-3' : 'py-6'
@@ -72,32 +63,27 @@ export default function NavbarMobile() {
       >
         <span className="text-xl font-bold tracking-wider text-white">DZIEWANNA</span>
         <div className="flex items-center gap-4">
-  <LangSwitcher />
-        
-<button
-  onClick={() => setOpen(!open)}
-  aria-label="Toggle menu"
-  className="relative z-50 w-8 h-8 flex flex-col justify-center items-center gap-2"
->
-  {/* Linea 1 */}
-  <motion.span
-    animate={open ? { rotate: 45, y: 5 } : { rotate: 0, y: 0 }}
-    transition={{ duration: 0.3 }}
-    className="block w-6 h-0.5 bg-white"
-  />
-  {/* Linea 2 */}
-  <motion.span
-    animate={open ? { rotate: -45, y: -5 } : { rotate: 0, y: 0 }}
-    transition={{ duration: 0.3 }}
-    className="block w-6 h-0.5 bg-white"
-  />
-</button>
-</div>
-
-
+          <LangSwitcher />
+          <button
+            onClick={() => setOpen(!open)}
+            aria-label="Toggle menu"
+            className="relative z-50 w-8 h-8 flex flex-col justify-center items-center gap-2"
+          >
+            <motion.span
+              animate={open ? { rotate: 45, y: 5 } : { rotate: 0, y: 0 }}
+              transition={{ duration: 0.3 }}
+              className="block w-6 h-0.5 bg-white"
+            />
+            <motion.span
+              animate={open ? { rotate: -45, y: -5 } : { rotate: 0, y: 0 }}
+              transition={{ duration: 0.3 }}
+              className="block w-6 h-0.5 bg-white"
+            />
+          </button>
+        </div>
       </div>
 
-      {/* Sidebar sotto il top bar */}
+      {/* Sidebar */}
       <AnimatePresence>
         {open && (
           <motion.div
@@ -105,20 +91,18 @@ export default function NavbarMobile() {
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
             transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-            className="fixed inset-0 bg-[#111A20] text-white z-40 px-6 py-8 pt-[88px] flex flex-col" // pt-[88px] ≈ spazio barra top
+            className="fixed inset-0 bg-[#111A20] text-white z-40 px-6 py-8 pt-[88px] flex flex-col"
           >
-            {/* X in alto a destra sopra la tenda */}
-            {/* <div className="fixed top-4 right-4 z-50">
-              <button onClick={() => setOpen(false)} aria-label="Close menu">
-                <FaTimes className="w-6 h-6 text-white" />
-              </button>
-            </div> */}
-
             <div className="flex flex-col justify-between flex-grow">
               {/* Link navigazione */}
               <nav className="flex flex-col text-right space-y-5 text-lg font-medium">
                 {navLinks.map(({ label, href }) => (
-                  <Link key={href} href={href} onClick={() => setOpen(false)}>
+                  <Link
+                    key={href}
+                    href={href}
+                    onClick={() => setOpen(false)}
+                    className="hover:text-emerald-300 transition-colors"
+                  >
                     {label}
                   </Link>
                 ))}

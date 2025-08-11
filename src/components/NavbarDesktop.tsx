@@ -4,16 +4,17 @@ import { useEffect, useState } from 'react';
 
 import Link from 'next/link';
 import { cn } from '../lib/utils';
-import MegaMenuSeeDo from './MegaMenuSeeDo';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import LayoutWrapper from './LayoutWrapper';
 import LangSwitcher from './LangSwitcher';
 
+
 export default function NavbarDesktop() {
   const [scrollY, setScrollY] = useState(0);
-  const [showMegaMenu, setShowMegaMenu] = useState(false);
+  
 
   const t = useTranslations('Navbar.desktop');
+  const locale = useLocale(); 
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -54,25 +55,45 @@ export default function NavbarDesktop() {
 
         {/* Links */}
         <div className="flex items-center space-x-8 text-white text-sm font-semibold tracking-wide uppercase">
-          <Link href="#zakwaterowanie" className="hover:text-[#B2CD9C] transition-colors">{t('accommodation')}</Link>
+          <Link href={`/${locale}/noclegi`} className="hover:text-[#B2CD9C] transition-colors">{t('accommodation')}</Link>
 
           {/* See & Do con mega menu */}
-          <div
-            onMouseEnter={() => setShowMegaMenu(true)}
-            onMouseLeave={() => setShowMegaMenu(false)}
-            className="relative"
-          >
-            <button className="hover:text-[#B2CD9C] transition-colors">
-              {t('seeDo')}
-            </button>
-            {showMegaMenu && <MegaMenuSeeDo />}
-          </div>
-
-          <Link href="#about" className="hover:text-[#B2CD9C] transition-colors">{t('about')}</Link>
-          <Link href="#reviews" className="hover:text-[#B2CD9C] transition-colors">{t('reviews')}</Link>
-
           
-          <LangSwitcher />
+              <Link
+                href={`/${locale}/atrakcje`}
+                className="hover:text-[#B2CD9C] transition-colors"
+              >
+                {t('seeDo')}
+              </Link>
+           
+
+            <Link
+              href={`/${locale}/o-nas`}
+              className="hover:text-[#B2CD9C] transition-colors"
+            >
+              {t('about')}
+            </Link>
+            <Link
+              href={`/${locale}/opinie`}
+              className="hover:text-[#B2CD9C] transition-colors"
+            >
+              {t('reviews')}
+            </Link>
+             <Link
+              href={`/${locale}/faq`}
+              className="hover:text-[#B2CD9C] transition-colors"
+            >
+              {t('faq')}
+            </Link>
+
+            <Link
+              href={`/${locale}/dojazd`}
+              className="hover:text-[#B2CD9C] transition-colors"
+            >
+              {t('location')}
+            </Link>
+
+            <LangSwitcher />
         </div>
       </div>
       </LayoutWrapper>

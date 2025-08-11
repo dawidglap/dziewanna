@@ -10,7 +10,9 @@
             "accommodation": "ZAKWATEROWANIE",
             "seeDo": "ATRAKCJE",
             "about": "O NAS",
-            "reviews": "OPINIE"
+            "reviews": "OPINIE",
+            "faq": "FAQ",
+            "location": "DOJAZD"
         },
         "mobile": {
             "accommodation": "Pokoje i noclegi",
