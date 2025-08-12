@@ -264,7 +264,7 @@
         "title": "Tu nas znajdziesz",
         "ctaAttractions": "Zobacz atrakcje",
         "ctaCall": "Zadzwoń i zarezerwuj",
-        "seeOnGoogle": "Zobacz mapę w Google"
+        "seeOnGoogle": "ZOBACZ MAPĘ W GOOGLE"
     },
     "Footer": {
         "description": "W sercu kaszubskiej natury – Dziewanna to więcej niż nocleg. To miejsce stworzone z duszą.",
@@ -312,5 +312,45 @@
     "heroAtrakcje": {
         "title": "Atrakcje i aktywności",
         "description": "W sercu Pomorza, Słupsk i jego okolice zachwycają różnorodnością natury i kultury. Odkryj ruchome wydmy w Słowińskim Parku Narodowym, piaszczyste plaże Ustki, malowniczą trasę rowerową Velo Baltica oraz rzeki idealne do spływów kajakowych. Poznaj urokliwe miasteczka, lokalne smaki i leśne szlaki prowadzące do jezior – idealne na każdą porę roku."
+    },
+    "experiences": {
+        "meta": {
+            "drive": "ok. {min} min jazdy",
+            "duration": {
+                "1-2h": "1–2 godz.",
+                "half-day": "pół dnia",
+                "full-day": "cały dzień"
+            }
+        },
+        "showMore": "Pokaż więcej",
+        "showLess": "Pokaż mniej",
+        "groups": {
+            "nature": "Natura",
+            "water": "Nad wodą",
+            "active": "Aktywnie",
+            "culture": "Kultura i historia",
+            "family": "Dla rodzin",
+            "food_relax": "Smaki i relaks"
+        },
+        "slowinski_dunes": {
+            "title": "Ruchome wydmy – Słowiński Park Narodowy",
+            "description": "Unikalny krajobraz wydmowy z punktami widokowymi, ścieżkami przez lasy i jeziora oraz panoramą Bałtyku."
+        },
+        "czolpino_lighthouse": {
+            "title": "Latarnia w Czołpinie",
+            "description": "Kameralna latarnia na wzgórzu z pięknym widokiem na wydmy, las i morze; świetna na rodzinny spacer."
+        },
+        "ustka_beach_promenade": {
+            "title": "Ustka – plaża i promenada",
+            "description": "Szeroka, piaszczysta plaża, molo i klimatyczne knajpki; idealne miejsce na zachód słońca."
+        },
+        "velo_baltica_segment": {
+            "title": "Velo Baltica – odcinek nadmorski",
+            "description": "Malownicza trasa rowerowa wzdłuż wybrzeża, przez lasy, klify i nadmorskie kurorty."
+        },
+        "kayak_slupia": {
+            "title": "Kajaki na Słupi",
+            "description": "Spływ rzeką Słupią – spokojne odcinki dla początkujących i nieco bardziej wymagające dla aktywnych."
+        }
     }
 }
