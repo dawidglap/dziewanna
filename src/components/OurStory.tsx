@@ -6,19 +6,19 @@ import { motion } from 'framer-motion';
 import LayoutWrapper from '@/components/LayoutWrapper';
 
 // Sostituisci quando vuoi
-import OurStoryImg from '../../public/forest.webp';
+import OurStoryImg from '../../public/aboutPic.webp';
 
 export default function OurStory() {
   const t = useTranslations('ourStory');
 
   return (
-    <section className="py-16 md:py-20 bg-[#F8F6F2]">
-      <LayoutWrapper>
+    <section className="pt-16 md:py-20 bg-[#F8F6F2]  ">
+      <LayoutWrapper >
         {/* Desktop: 2 colonne | Mobile/Tablet: 1 colonna (testo sopra, immagine sotto) */}
-        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 xl:gap-12 items-start">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 xl:gap-12 items-stretch">
           {/* Testo */}
           <motion.div
-            className="xl:col-span-6"
+            className="xl:col-span-6 "
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-100px' }}
@@ -37,6 +37,8 @@ export default function OurStory() {
               <p>{t('p1')}</p>
               <p>{t('p2')}</p>
               <p>{t('p3')}</p>
+              <p>{t('p4')}</p>
+              <p>{t('p5')}</p>
             </div>
           </motion.div>
 
@@ -48,18 +50,38 @@ export default function OurStory() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <div className="relative w-full aspect-[4/3] md:aspect-[16/10] rounded-xl overflow-hidden shadow-sm">
-              <Image
-                src={OurStoryImg}
-                alt={t('imageAlt')}
-                fill
-                className="object-cover"
-                priority={false}
-              />
-              {/* watermark/credit opzionale in stile Trolltunga */}
-              <span className="absolute bottom-2 right-2 text-[10px] md:text-xs bg-black/60 text-white px-2 py-1 rounded">
-                © Adobe Stock
-              </span>
+            {/* Mobile/Tablet: rapporto fisso */}
+            <div className="xl:hidden">
+              <div className="relative w-full aspect-[4/3] md:aspect-[16/10] rounded-xl overflow-hidden shadow-sm">
+                <Image
+                  src={OurStoryImg}
+                  alt={t('imageAlt')}
+                  fill
+                  className="object-cover"
+                  priority={false}
+                  sizes="(max-width: 1279px) 100vw"
+                />
+                <span className="absolute bottom-2 right-2 text-[10px] md:text-xs bg-black/60 text-white px-2 py-1 rounded">
+                  © Dziewanna
+                </span>
+              </div>
+            </div>
+
+            {/* Desktop (xl+): altezza piena uguale al testo */}
+            <div className="hidden xl:block h-full">
+              <div className="relative w-full h-full min-h-[420px] rounded-xl overflow-hidden shadow-sm">
+                <Image
+                  src={OurStoryImg}
+                  alt={t('imageAlt')}
+                  fill
+                  className="object-cover"
+                  priority={false}
+                  sizes="(min-width: 1280px) 50vw"
+                />
+                <span className="absolute bottom-2 right-2 text-[10px] md:text-xs bg-black/60 text-white px-2 py-1 rounded">
+                  © Dziewanna
+                </span>
+              </div>
             </div>
           </motion.div>
         </div>

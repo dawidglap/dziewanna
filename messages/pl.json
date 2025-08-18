@@ -356,5 +356,22 @@
     "heroAbout": {
         "title": "O Dziewannie",
         "description": "Poznaj naszą historię – kim jesteśmy, jak powstała Dziewanna i jak dbamy o dom, ogród i otoczenie, które dziś mogą stać się także Twoim miejscem odpoczynku."
+    },
+    "ourStory": {
+        "eyebrow": "PO PROSTU WSPANIALE",
+        "title": "NASZA HISTORIA",
+        "lead": "Dziewanna mieści się w ponad 130-letniej, dawnej stodole, którą z szacunkiem odrestaurowaliśmy, zachowując oryginalną konstrukcję i charakter miejsca.",
+        "p1": "Jesteśmy Izabela Gordonowicz i Tomasz Tisler. Od 2010 roku krok po kroku zmieniamy Brzeziniec w dom gościnny z duszą — dbając o każdy detal: od starej cegły i belek po zapach drewna, który wita już w progu.",
+        "p2": "Dziewanna leży w Brzezińcu, w gminie Dębnica Kaszubska. Sama nazwa miejscowości nawiązuje do brzeziny, a jej kaszubskie formy — Brzezëna / Brzezyńc — i dawna niemiecka nazwa Birkhof przypominają, jak mocno to miejsce wyrasta z krajobrazu lasów i pól.",
+        "p3": "Żyjemy rytmem ogrodu: uprawiamy zioła, zbieramy owoce, suszymy, kisimy, a z letnich zbiorów robimy nalewki. Latem siadamy z Gośćmi przy ogniu nad basenem, jesienią i zimą — przy kominku, gdzie pachnie żywicą i ciepłem drewna.",
+        "p4": "Chcieliśmy, by Dziewanna była przestrzenią odpoczynku: prostą, prawdziwą, blisko natury. Tu czas zwalnia, a ścieżki prowadzą między lawendą, jabłoniami i łąką. Dom i ogród są żywe — zmieniają się z porami roku i z każdym kolejnym sezonem pracy naszych rąk.",
+        "p5": "Zapraszamy do miejsca, które powstało z troski i cierpliwości. Jeśli zechcesz — podzielimy się historią domu, przepisem na nalewkę i cichym wieczorem przy ogniu.",
+        "imageAlt": "Dziewanna – pokoje z duszą w sercu Pomorza"
+    },
+    "mission": {
+        "title": "Nasza misja",
+        "line1": "Dziewanna powstała jako dom z duszą, w którym czas płynie wolniej, a każdy gość może odnaleźć swój własny rytm spokoju.",
+        "line2": "Otoczeni lasami, łąkami i ciszą, celebrujemy piękno natury i ciepło prostych chwil.",
+        "line3": "Naszą misją jest oferować nie tylko nocleg, lecz doświadczenie, które łączy z samym sobą, bliskimi i duchem Kaszub."
     }
 }

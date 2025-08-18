@@ -3,14 +3,14 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import Poster from '../../public/forest.webp'; // <-- aggiorna il path quando ti fa comodo
+import Poster from '../../public/heroAbout2.webp'; // <-- aggiorna il path quando ti fa comodo
 import LayoutWrapper from '@/components/LayoutWrapper';
 
 export default function HeroAbout() {
   const t = useTranslations('heroAbout');
 
   return (
-    <section className="relative w-full overflow-hidden flex items-end pb-20 h-[100vh] md:h-[80vh]">
+    <section className="relative w-full overflow-hidden flex items-end pb-20 h-[100vh] md:h-[80vh] bg-[#F8F6F2]">
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image
