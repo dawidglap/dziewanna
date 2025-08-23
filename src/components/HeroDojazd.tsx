@@ -3,11 +3,11 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import Poster from '../../public/heroFaq2.webp'; // stessa immagine, cambierai tu se serve
+import Poster from '../../public/heroDojazd.webp'; // <-- sostituisci il path quando vuoi
 import LayoutWrapper from '@/components/LayoutWrapper';
 
-export default function HeroFaq() {
-  const t = useTranslations('heroFaq');
+export default function HeroDojazd() {
+  const t = useTranslations('dojazd.hero');
 
   return (
     <section className="relative w-full overflow-hidden flex items-end pb-20 h-[100vh] md:h-[80vh] bg-[#F8F6F2]">
@@ -15,7 +15,7 @@ export default function HeroFaq() {
       <div className="absolute inset-0 z-0">
         <Image
           src={Poster}
-          alt="Dziewanna hero background"
+          alt="Dziewanna - tło sekcji dojazdu"
           fill
           className="object-cover object-center rounded-b-xl"
           priority
@@ -43,7 +43,7 @@ export default function HeroFaq() {
           </motion.h1>
 
           <motion.p
-            className="text-white text-base  font-medium xl:text-lg mt-6 max-w-2xl"
+            className="text-white text-base font-medium xl:text-lg mt-6 max-w-2xl"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}

@@ -430,5 +430,61 @@
                 "a": "Dziewanna to miejsce stworzone z pasją, które łączy komfort prywatnego domu z autentycznym kaszubskim klimatem. To idealna baza wypadowa do odkrywania Pomorza, Słowińskiego Parku Narodowego i urokliwych plaż Bałtyku."
             }
         }
+    },
+    "dojazd": {
+        "hero": {
+            "eyebrow": "Dojazd",
+            "title": "Jak dojechać do Dziewanny",
+            "description": "Dziewanna – pokoje z duszą na Kaszubach. Dojedziesz do nas autem, pociągiem ze Słupska oraz autobusem PKS (linia 212). W pobliżu znajdują się malownicze przystanki i Jezioro Dobra – idealne na kajak, SUP i rower wodny."
+        },
+        "blocks": {
+            "shuttleTitle": "Autobusy PKS do Dziewanny (linia 212)",
+            "shuttleIntro": "Z dworca w Słupsku dojedziesz linią 212 w kierunku Maleniec. Wysiądź na przystanku „Brzeziniec, skrzyżowanie” – stamtąd do Dziewanny jest tylko kilka minut. W okolicy są też przystanki przy Jeziorze Dobra.",
+            "carTitle": "Dojazd samochodem",
+            "carBody": "Najwygodniej dojechać autem: z Słupska ok. 25–30 min, z Ustki ok. 35–40 min. Na miejscu czeka bezpłatny parking na terenie obiektu.",
+            "trainTitle": "Pociąg + autobus",
+            "trainBody": "Do Słupska kursują pociągi PKP/Polregio z Gdańska, Gdyni, Koszalina i Szczecina. Z dworca PKP przesiądź się na autobus PKS (linia 212) w kierunku Maleniec.",
+            "lakeTitle": "Jezioro Dobra – przystanek i atrakcje",
+            "lakeBody": "Niedaleko Dziewanny znajduje się Jezioro Dobra z wypożyczalnią kajaków, SUP‑ów i rowerków wodnych. To idealne miejsce na aktywny wypoczynek po drodze lub podczas pobytu.",
+            "taxiTitle": "Taxi i transfery dla grup",
+            "taxiBody": "Wolisz wygodę? Zadzwoń do Pani Izy: {{phone}}. Pomożemy zamówić taxi. Dla większych grup (rodziny, znajomi) możemy zorganizować transfer ze Słupska lub Ustki – zapytaj przy rezerwacji.",
+            "parkingTitle": "Parking i nawigacja",
+            "parkingBody": "Na miejscu jest bezpłatny parking. Użyj nawigacji Google Maps wpisując „Dziewanna – Brzeziniec 10”. Jeśli masz pytania w trakcie dojazdu – zadzwoń: {{phone}}."
+        },
+        "table": {
+            "departure": "Odjazdy Słupsk → Brzeziniec (linia 212)",
+            "note": "Rozkład może ulec zmianie. Sprawdź aktualne godziny w PKS Słupsk przed wyjazdem.",
+            "cols": {
+                "stop": "Przystanek",
+                "wkdays": "Dni robocze",
+                "saturday": "Sobota (lipiec–sierpień)",
+                "sunday": "Niedziela/święta"
+            },
+            "rows": [
+                {
+                    "stop": "Słupsk — Dworzec (centrum)",
+                    "wkdays": "07:55 · 10:40 · 15:58 · 16:40 · 18:40 · 20:40",
+                    "saturday": "07:55 · 12:55 · 15:58",
+                    "sunday": "—"
+                },
+                {
+                    "stop": "Brzeziniec, skrzyżowanie",
+                    "wkdays": "ok. +35–45 min od wyjazdu",
+                    "saturday": "ok. +35–45 min",
+                    "sunday": "—"
+                },
+                {
+                    "stop": "Jezioro Dobra (przystanek w sezonie)",
+                    "wkdays": "sprawdź wariant kursu",
+                    "saturday": "sprawdź wariant kursu",
+                    "sunday": "—"
+                }
+            ],
+            "ctaBus": "Sprawdź rozkład PKS Słupsk",
+            "ctaTaxi": "Zadzwoń do Pani Izy: {{phone}}"
+        },
+        "seo": {
+            "paragraph": "Szukasz dojazdu do Dziewanny w Brzezińcu? Najprościej: pociąg do Słupska i autobus PKS linia 212, przystanek „Brzeziniec, skrzyżowanie”. Dojazd autem z Ustki i Słupska zajmuje 25–40 minut. W pobliżu znajduje się Jezioro Dobra z wypożyczalnią kajaków, SUP i rowerków wodnych."
+        }
     }
 }
