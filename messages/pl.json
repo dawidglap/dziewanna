@@ -373,5 +373,62 @@
         "line1": "Dziewanna powstała jako dom z duszą, w którym czas płynie wolniej, a każdy gość może odnaleźć swój własny rytm spokoju.",
         "line2": "Otoczeni lasami, łąkami i ciszą, celebrujemy piękno natury i ciepło prostych chwil.",
         "line3": "Naszą misją jest oferować nie tylko nocleg, lecz doświadczenie, które łączy z samym sobą, bliskimi i duchem Kaszub."
+    },
+    "heroReviews": {
+        "aria": "Opinie gości – Dziewanna",
+        "eyebrow": "Opinie gości",
+        "title": "Miejsce, które zostaje w sercu",
+        "description": "Prawdziwe historie naszych gości — o spokoju, naturze i ciepłych chwilach w Dziewannie."
+    },
+    "heroFaq": {
+        "title": "FAQ",
+        "description": "Najczęściej zadawane pytania dotyczące Dziewanny – rezerwacji, udogodnień i praktycznych informacji."
+    },
+    "faq": {
+        "eyebrow": "FAQ",
+        "headline": "Najczęściej zadawane pytania",
+        "intro": "Tutaj znajdziesz odpowiedzi na pytania dotyczące rezerwacji, pobytu i udogodnień w Dziewannie – pokoje z duszą na Kaszubach.",
+        "items": {
+            "q1": {
+                "q": "Jak mogę zarezerwować pokój w Dziewannie?",
+                "a": "Najprościej i najszybciej zarezerwujesz pobyt dzwoniąc bezpośrednio do Pani Izy pod numer +48 600 243 754. To łatwe i szybkie rozwiązanie – wystarczy jeden telefon, aby ustalić wszystkie szczegóły."
+            },
+            "q2": {
+                "q": "Czy w Dziewannie jest dostępny bezpłatny parking?",
+                "a": "Tak, dla naszych Gości zapewniamy bezpłatny parking na terenie obiektu. Parking jest monitorowany i znajduje się tuż obok domu."
+            },
+            "q3": {
+                "q": "Jakie udogodnienia są dostępne dla Gości?",
+                "a": "Do dyspozycji Gości oddajemy w pełni wyposażoną kuchnię, ogród z miejscem na ognisko i grillem, taras wypoczynkowy, bezpłatne Wi-Fi, a także prywatne łazienki w każdym pokoju. Zimą dostępne jest ogrzewanie, a latem chłodne, zacienione wnętrza."
+            },
+            "q4": {
+                "q": "O której godzinie można się zameldować i wymeldować?",
+                "a": "Zameldowanie odbywa się od godziny 15:00 do 22:00, a wymeldowanie do godziny 11:00. W miarę możliwości oferujemy wcześniejsze zameldowanie lub późniejsze wymeldowanie – prosimy o wcześniejszy kontakt."
+            },
+            "q5": {
+                "q": "Czy Dziewanna akceptuje pobyt ze zwierzętami?",
+                "a": "Tak, akceptujemy pobyt z małymi i średnimi psami. Obowiązuje niewielka opłata za sprzątanie. Prosimy o wcześniejszą informację, abyśmy mogli przygotować odpowiednie udogodnienia."
+            },
+            "q6": {
+                "q": "Czy w Dziewannie można rozpalić ognisko?",
+                "a": "Tak, w ogrodzie znajduje się specjalnie przygotowane miejsce na ognisko. Drewno zapewniamy na miejscu, a w sezonie letnim organizujemy wspólne wieczory przy ogniu."
+            },
+            "q7": {
+                "q": "Jak daleko jest Dziewanna od plaży i atrakcji turystycznych?",
+                "a": "Dziewanna znajduje się w sercu kaszubskiej przyrody, w spokojnej okolicy pełnej lasów i łąk. Do najbliższej plaży w Ustce jest około 25 minut jazdy samochodem. W pobliżu znajdują się także ruchome wydmy w Słowińskim Parku Narodowym oraz latarnia morska w Czołpinie."
+            },
+            "q8": {
+                "q": "Czy w Dziewannie dostępne jest Wi-Fi?",
+                "a": "Tak, w całym obiekcie dostępne jest bezpłatne Wi-Fi o wysokiej prędkości, dzięki czemu możesz wygodnie pracować zdalnie lub oglądać filmy online."
+            },
+            "q9": {
+                "q": "Jak dojechać do Dziewanny komunikacją publiczną?",
+                "a": "Najbliższy dworzec kolejowy znajduje się w Słupsku. Stamtąd kursują lokalne autobusy do pobliskich miejscowości. Na życzenie możemy pomóc w organizacji transferu z dworca."
+            },
+            "q10": {
+                "q": "Dlaczego warto zatrzymać się w Dziewannie?",
+                "a": "Dziewanna to miejsce stworzone z pasją, które łączy komfort prywatnego domu z autentycznym kaszubskim klimatem. To idealna baza wypadowa do odkrywania Pomorza, Słowińskiego Parku Narodowego i urokliwych plaż Bałtyku."
+            }
+        }
     }
 }
