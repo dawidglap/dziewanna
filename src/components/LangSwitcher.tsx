@@ -22,10 +22,10 @@ export default function LangSwitcher() {
   };
 
   return (
-    <div className="relative z-30 mt-2 xl:mt-0">
+    <div className="relative z-30 mt-2 xl:mt-0 ">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="text-white hover:text-[#B2CD9C] transition"
+        className="text-white hover:text-yellow-400 transition cursor-pointer"
         aria-label="Language selector"
       >
         <HiOutlineGlobeAlt className="w-6 h-6" />
@@ -45,9 +45,9 @@ export default function LangSwitcher() {
                 key={loc}
                 onClick={() => handleLocaleChange(loc)}
                 className={clsx(
-                  'cursor-pointer px-4 py-2 text-sm hover:bg-[#B2CD9C] hover:text-black transition',
+                  'cursor-pointer px-4 py-2 text-sm hover:bg-yellow-400 hover:text-black transition',
                   {
-                    'text-[#B2CD9C] font-semibold': loc === locale,
+                    'text-yellow-400 font-semibold': loc === locale,
                   }
                 )}
               >

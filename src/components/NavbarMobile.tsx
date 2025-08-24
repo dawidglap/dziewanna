@@ -9,6 +9,7 @@ import {
 } from 'react-icons/fa';
 import { useTranslations, useLocale } from 'next-intl';
 import LangSwitcher from './LangSwitcher';
+import Image from 'next/image';
 
 export default function NavbarMobile() {
   const t = useTranslations('Navbar.mobile');
@@ -61,7 +62,15 @@ export default function NavbarMobile() {
           position: 'relative',
         }}
       >
-        <span className="text-xl font-bold tracking-wider text-white">DZIEWANNA</span>
+                <Link href="/" className="block relative w-[168px] h-[31px] ">
+  <Image
+    src="/logo_dziewanna_white.png"
+    alt="Dziewanna logo"
+    fill
+    className="object-contain"
+    priority
+  />
+</Link>
         <div className="flex items-center gap-4">
           <LangSwitcher />
           <button

@@ -56,13 +56,13 @@ export default function NavbarDesktop() {
 
         {/* Links */}
         <div className="flex items-center space-x-8 text-white text-sm font-semibold tracking-wide uppercase">
-          <Link href={`/${locale}/noclegi`} className="hover:text-[#B2CD9C] transition-colors">{t('accommodation')}</Link>
+          <Link href={`/${locale}/noclegi`} className="hover:text-yellow-400 transition-colors">{t('accommodation')}</Link>
 
           {/* See & Do con mega menu */}
           
               <Link
                 href={`/${locale}/atrakcje`}
-                className="hover:text-[#B2CD9C] transition-colors"
+                className="hover:text-yellow-400 transition-colors"
               >
                 {t('seeDo')}
               </Link>
@@ -70,26 +70,26 @@ export default function NavbarDesktop() {
 
             <Link
               href={`/${locale}/o-nas`}
-              className="hover:text-[#B2CD9C] transition-colors"
+              className="hover:text-yellow-400 transition-colors"
             >
               {t('about')}
             </Link>
             <Link
               href={`/${locale}/opinie`}
-              className="hover:text-[#B2CD9C] transition-colors"
+              className="hover:text-yellow-400 transition-colors"
             >
               {t('reviews')}
             </Link>
              <Link
               href={`/${locale}/faq`}
-              className="hover:text-[#B2CD9C] transition-colors"
+              className="hover:text-yellow-400 transition-colors"
             >
               {t('faq')}
             </Link>
 
             <Link
               href={`/${locale}/dojazd`}
-              className="hover:text-[#B2CD9C] transition-colors"
+              className="hover:text-yellow-400 transition-colors"
             >
               {t('location')}
             </Link>

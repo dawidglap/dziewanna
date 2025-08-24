@@ -46,7 +46,7 @@ export default function Footer() {
     priority
   />
 </Link>
-          <p className="text-sm text-black/70">
+          <p className="text-sm text-[#81A886] font-medium">
             {t('description')}
           </p>
         </div>
@@ -55,10 +55,10 @@ export default function Footer() {
         <div className=''>
           <h4 className="text-2xl font-bold mb-4">{t('navigation')}</h4>
           <ul className="space-y-2 text-sm">
-            <li><Link href="#zakwaterowanie" className="hover:text-[#B2CD9C] transition">{t('accommodation')}</Link></li>
-            <li><Link href="#see-do" className="hover:text-[#B2CD9C] transition">{t('seeDo')}</Link></li>
-            <li><Link href="#about" className="hover:text-[#B2CD9C] transition">{t('about')}</Link></li>
-            <li><Link href="#reviews" className="hover:text-[#B2CD9C] transition">{t('reviews')}</Link></li>
+            <li><Link href="#zakwaterowanie" className="hover:text-yellow-400 transition">{t('accommodation')}</Link></li>
+            <li><Link href="#see-do" className="hover:text-yellow-400 transition">{t('seeDo')}</Link></li>
+            <li><Link href="#about" className="hover:text-yellow-400 transition">{t('about')}</Link></li>
+            <li><Link href="#reviews" className="hover:text-yellow-400 transition">{t('reviews')}</Link></li>
           </ul>
         </div>
 
@@ -77,17 +77,17 @@ export default function Footer() {
       </div>
 
       {/* Contact */}
-      <div className="max-w-7xl mx-auto mt-12 border-t border-white/10 pt-6 grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
+      <div className="max-w-7xl mx-auto mt-12  pt-6 grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
         <div className="flex items-center gap-3">
-          <MapPin className="w-5 h-5 text-[#B2CD9C]" />
+          <MapPin className="w-5 h-5 text-yellow-400" />
           <span>Dziewanny 10, 76-248 Brzezinec</span>
         </div>
         <div className="flex items-center md:justify-end gap-3">
-          <Phone className="w-5 h-5 text-[#B2CD9C]" />
+          <Phone className="w-5 h-5 text-yellow-400" />
           <a href="tel:+48600243754" className="hover:underline">600 243 754</a>
         </div>
         <div className="flex items-center gap-3 md:col-span-2">
-          <Mail className="w-5 h-5 text-[#B2CD9C]" />
+          <Mail className="w-5 h-5 text-yellow-400" />
           <a href="mailto:kontakt@dziewanna.pl" className="hover:underline">kontakt@dziewanna.pl</a>
         </div>
       </div>
