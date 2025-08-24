@@ -28,7 +28,7 @@ export default function DojazdSection() {
           <h1 className="text-[clamp(2rem,6vw,3.25rem)] leading-tight font-semibold text-[#1F1F1F]">
             {t('hero.title')}
           </h1>
-          <p className="mt-4 text-neutral-700 font-semibold text-base md:text-lg">
+          <p className="mt-4 text-neutral-700 font-semibold text-base md:text-lg ">
             {t('hero.description')}
           </p>
         </motion.div>
@@ -68,13 +68,13 @@ export default function DojazdSection() {
                 <div className="mt-3 flex gap-3 flex-wrap">
                   <Link
                     href="#"
-                    className="inline-flex items-center justify-center bg-white border border-[#1F1F1F] text-[#1F1F1F] font-semibold px-4 py-2 rounded-sm hover:bg-[#B2CD9C] hover:text-black hover:border-[#B2CD9C] transition text-sm"
+                    className=" inline-flex items-center justify-center bg-white border border-[#1F1F1F] text-[#1F1F1F] font-semibold px-4 py-2 rounded-sm hover:bg-yellow-400 hover:text-black hover:border-yellow-400 transition text-sm"
                   >
                     {t('table.ctaBus')}
                   </Link>
                   <Link
                     href={`tel:${phone.replace(/\s+/g, '')}`}
-                    className="inline-flex items-center justify-center bg-[#1F1F1F] text-white font-semibold px-4 py-2 rounded-sm hover:bg-[#B2CD9C] hover:text-black transition text-sm"
+                    className=" inline-flex items-center justify-center bg-[#1F1F1F] text-white font-semibold px-4 py-2 rounded-sm hover:bg-yellow-400 hover:text-black transition text-sm"
                   >
                     {t('table.ctaTaxi', { phone })}
                   </Link>
@@ -137,10 +137,10 @@ function Block({
         <div className="mt-4">
           <Link
             href={ctaHref}
-            className={
+            className={ 
               variant === 'dark'
-                ? 'bg-[#1F1F1F] text-white font-semibold px-4 py-2 rounded-sm hover:bg-[#B2CD9C] hover:text-black transition text-sm inline-block'
-                : 'bg-white border border-[#1F1F1F] text-[#1F1F1F] font-semibold px-4 py-2 rounded-sm hover:bg-[#B2CD9C] hover:text-black hover:border-[#B2CD9C] transition text-sm inline-block'
+                ? 'bg-[#1F1F1F] text-white font-semibold px-4 py-2 rounded-sm hover:bg-yellow-400 hover:text-black transition text-sm inline-block'
+                : 'bg-white border border-[#1F1F1F] text-[#1F1F1F] font-semibold px-4 py-2 rounded-sm hover:bg-yellow-400 hover:text-black hover:border-yellow-400 transition text-sm inline-block'
             }
           >
             {ctaLabel}
