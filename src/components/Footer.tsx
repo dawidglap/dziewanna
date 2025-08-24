@@ -14,6 +14,7 @@ import {
 } from 'react-icons/fa'
 import { MapPin, Phone, Mail } from 'lucide-react'
 import LayoutWrapper from './LayoutWrapper'
+import Image from 'next/image'
 
 export default function Footer() {
   const t = useTranslations('Footer')
@@ -31,11 +32,20 @@ export default function Footer() {
 
   return (
 <LayoutWrapper>
-    <footer className=" text-black py-16">
+    <footer className=" 
+ text-black py-16">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
         {/* Logo */}
         <div>
-          <h3 className="font-montserrat lg:text-5xl text-3xl font-bold tracking-widest mb-4">Dziewanna</h3>
+                  <Link href="/" className="block relative w-[240px] h-[44px] md:w-[360px] md:h-[66px] ">
+  <Image
+    src="/logo_dziewanna_black.png"
+    alt="Dziewanna logo"
+    fill
+    className="object-contain"
+    priority
+  />
+</Link>
           <p className="text-sm text-black/70">
             {t('description')}
           </p>

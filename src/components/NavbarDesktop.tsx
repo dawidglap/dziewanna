@@ -7,6 +7,7 @@ import { cn } from '../lib/utils';
 import { useTranslations, useLocale } from 'next-intl';
 import LayoutWrapper from './LayoutWrapper';
 import LangSwitcher from './LangSwitcher';
+import Image from 'next/image';
 
 
 export default function NavbarDesktop() {
@@ -40,18 +41,18 @@ export default function NavbarDesktop() {
       <div className="max-w-7xl mx-auto  flex items-center justify-between relative">
 
         {/* Logo */}
-        <div className="text-white text-2xl font-bold tracking-widest select-none">
+        {/* <div className="text-white text-2xl font-bold tracking-widest select-none">
           DZIEWANNA
-        </div>
-        {/* <Link href="/" className="block relative w-[320px] h-[80px] mt-[-40px]">
+        </div> */}
+        <Link href="/" className="block relative w-[240px] h-[44px] ">
   <Image
-    src="/logo-dziewanna.png"
+    src="/logo_dziewanna_white.png"
     alt="Dziewanna logo"
     fill
     className="object-contain"
     priority
   />
-</Link> */}
+</Link>
 
         {/* Links */}
         <div className="flex items-center space-x-8 text-white text-sm font-semibold tracking-wide uppercase">
