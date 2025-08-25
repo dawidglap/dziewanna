@@ -12,7 +12,7 @@ export default function AboutDziewanna() {
   const t = useTranslations();
 
   return (
-    <section className="bg-[#f4f3ef] text-black px-6 md:px-12 xl:px-20 py-16 xl:py-32 ">
+    <section className="rounded-b-xl shadow-md bg-gradient-to-b from-yellow-200 via-yellow-50 to-[#81a886] text-black px-6 md:px-12 xl:px-20 py-16 xl:py-32 ">
       <div className="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-24 items-center pt-20">
         {/* Colonna sinistra */}
        <div className="h-full flex flex-col justify-between space-y-8">
@@ -125,7 +125,7 @@ export default function AboutDziewanna() {
    <Link
         href="tel:+48730733399"
         className="bg-[#1F1F1F] text-white text-center font-semibold px-6 py-3 rounded-sm
-                 shadow hover:bg-[#B2CD9C] hover:text-black transition
+                 shadow hover:bg-yellow-400 hover:text-black transition
                  text-sm sm:text-base md:text-lg w-full sm:w-auto"
       >
         {t('aboutDziewanna.callToBook')}
@@ -135,7 +135,7 @@ export default function AboutDziewanna() {
       <Link
         href="/pokoje"
         className="bg-white border border-[#1F1F1F] text-[#1F1F1F] text-center font-semibold px-6 py-3 rounded-sm
-                 hover:bg-[#B2CD9C] hover:border-[#B2CD9C] hover:text-black transition
+                 hover:bg-yellow-400 hover:border-yellow-400 hover:text-black transition
                  text-sm sm:text-base md:text-lg w-full sm:w-auto"
       >
         {t('aboutDziewanna.seeApartments')}

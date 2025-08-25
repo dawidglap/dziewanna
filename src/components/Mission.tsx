@@ -36,7 +36,7 @@ export default function Mission({ className = '' }: MissionProps) {
 
   return (
 <section
-  className={`bg-gradient-to-b from-[#F8F6F2] to-[#D9E4D0] text-[#1A1A1A]
+  className={`bg-gradient-to-b from-[#F8F6F2] to-yellow-100 text-[#1A1A1A]
               min-h-[90vh] sm:min-h-screen max-h-[1080px]  flex items-center rounded-b-xl ${className}`}
   aria-label={t('title', { defaultMessage: 'Dziewanna – misja' })}
 >

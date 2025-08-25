@@ -34,7 +34,7 @@ export default function Hero() {
         <Link
           href="#contact"
           className="bg-white text-black text-center font-semibold px-6 py-3 rounded-sm
-                     shadow hover:bg-[#B2CD9C] transition
+                     shadow hover:bg-yellow-400 transition
                      text-sm sm:text-base md:text-lg w-full sm:w-auto"
         >
           {t('button1')}
@@ -44,7 +44,7 @@ export default function Hero() {
         <Link
           href="#experiences"
           className="border border-white text-white text-center font-semibold px-6 py-3 rounded-sm
-                     hover:bg-[#B2CD9C] hover:text-black hover:border-[#B2CD9C] transition
+                     hover:bg-yellow-400 hover:text-black hover:border-yellow-400 transition
                      text-sm sm:text-base md:text-lg w-full sm:w-auto"
         >
           {t('button2')}

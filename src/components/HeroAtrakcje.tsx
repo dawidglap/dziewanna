@@ -46,7 +46,7 @@ export default function HeroAtrakcje() {
           transition={{ duration: 1 }}
         >
           <motion.h1
-            className="font-caveat font-bold text-[#B2CD9C] drop-shadow-md leading-tight
+            className="font-caveat font-bold text-yellow-400 drop-shadow-md leading-tight
                        text-[clamp(2.5rem,8vw,4rem)]"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

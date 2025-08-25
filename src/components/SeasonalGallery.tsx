@@ -122,7 +122,7 @@ const dynamicBottom = useMemo(() => {
 
 
   return (
-    <section ref={sectionRef} className="relative w-full h-[200vh] bg-[#ECFAE5]">
+    <section ref={sectionRef} className="relative w-full h-[200vh] bg-yellow-200">
         
       <div className="sticky top-0 h-screen w-full overflow-hidden flex items-center justify-center">
         <div
@@ -164,7 +164,7 @@ const dynamicBottom = useMemo(() => {
     {/* Overlay contenuti stagionali */}
     <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-6 text-center">
       <motion.h2
-        className="text-3xl md:text-5xl font-bold mb-4 font-handwriting text-[#ECFAE5]"
+        className="text-3xl md:text-5xl font-bold mb-4 font-handwriting text-yellow-300"
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -10 }}
@@ -190,10 +190,10 @@ const dynamicBottom = useMemo(() => {
         exit={{ opacity: 0, y: -10 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        <button className="bg-black hover:bg-[#B2CD9C] hover:text-black cursor-pointer text-white px-6 py-3 text-sm md:text-base font-semibold rounded-md w-full md:w-auto">
+        <button className="bg-black hover:bg-yellow-400 hover:text-black cursor-pointer text-white px-6 py-3 text-sm md:text-base font-semibold rounded-md w-full md:w-auto">
           {t("button.readMore")}
         </button>
-        <button className="border border-white hover:bg-[#B2CD9C] hover:border-[#B2CD9C] hover:text-black cursor-pointer text-white px-6 py-3 text-sm md:text-base font-semibold rounded-md w-full md:w-auto">
+        <button className="border border-white hover:bg-yellow-400 hover:border-yellow-400 hover:text-black cursor-pointer text-white px-6 py-3 text-sm md:text-base font-semibold rounded-md w-full md:w-auto">
           {t("button.guidedHikes")}
         </button>
       </motion.div>
@@ -219,14 +219,14 @@ const dynamicBottom = useMemo(() => {
       <div key={season.id} className="w-1/2 md:flex-1 text-center">
         <div
           className={`font-semibold tracking-wider text-sm md:text-lg ${
-            i === currentSeasonIndex ? "text-[#B2CD9C]" : "text-white"
+            i === currentSeasonIndex ? "text-yellow-400" : "text-white"
           }`}
         >
           {season.id.toUpperCase()}
         </div>
         <div className="h-[2px] w-full bg-white/30 mt-1 relative overflow-hidden rounded">
        <div
-  className="h-full bg-[#B2CD9C] transition-all duration-100 will-change-[width]"
+  className="h-full bg-yellow-400 transition-all duration-100 will-change-[width]"
   style={{ width: i === currentSeasonIndex ? `${barWidth}%` : "0%" }}
 />
 

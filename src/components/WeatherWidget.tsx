@@ -215,7 +215,7 @@ return (
       <Link
         href="https://www.yr.no/en/forecast/daily-table/2-3085450/Poland/Pomeranian%20Voivodeship/S%C5%82upsk/S%C5%82upsk"
         target="_blank"
-        className="bg-[#1F1F1F] text-white text-center font-semibold block py-3  shadow hover:bg-[#B2CD9C] hover:text-black transition
+        className="bg-[#1F1F1F] text-white text-center font-semibold block py-3  shadow hover:bg-yellow-400 hover:text-black transition
                text-sm sm:text-base md:text-lg m-4 rounded-sm"
       >
         {t('button')}

@@ -60,7 +60,7 @@ export default function Preloader({ onFinish }: { onFinish: () => void }) {
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ y: '-100%', opacity: 0 }}
                 transition={{ duration: 0.4, ease: 'easeOut' }}
-                className="font-montserrat text-center absolute text-xl md:text-5xl font-bold tracking-widest text-[#B2CD9C] z-20 bg-[#111A20] px-4"
+                className="font-montserrat text-center absolute text-xl md:text-5xl font-bold tracking-widest text-yellow-400 z-20 bg-[#111A20] px-4"
               >
                 POKOJE Z DUSZĄ
               </motion.span>

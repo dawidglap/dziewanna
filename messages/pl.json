@@ -7,7 +7,7 @@
     },
     "Navbar": {
         "desktop": {
-            "accommodation": "ZAKWATEROWANIE",
+            "accommodation": "NOCLEGI",
             "seeDo": "ATRAKCJE",
             "about": "O NAS",
             "reviews": "OPINIE",
@@ -54,7 +54,7 @@
         "precip": "Opady"
     },
     "Weather": {
-        "title": "Pogoda w Słupsku – 3 dni",
+        "title": "Pogoda w Dziewannie – 3 dni",
         "fallback": "Nie udało się pobrać prognozy pogody. Sprawdź bezpośrednio na",
         "button": "Zobacz szczegóły prognozy",
         "day": "Dzień",
@@ -269,8 +269,8 @@
     "Footer": {
         "description": "W sercu kaszubskiej natury – Dziewanna to więcej niż nocleg. To miejsce stworzone z duszą.",
         "navigation": "Nawigacja",
-        "accommodation": "Zakwaterowanie",
-        "seeDo": "Zobacz & Zrób",
+        "accommodation": "Noclegi",
+        "seeDo": "Atrakcje",
         "about": "O nas",
         "reviews": "Opinie",
         "activities": "Atrakcje",

@@ -14,7 +14,7 @@ export default function DziewannaIntro() {
   const t = useTranslations('DziewannaIntro');
 
   return (
-    <section className="w-full bg-[#ECFAE5]  py-16 px-6 lg:px-12 xl:px-16 overflow-hidden">
+    <section className="w-full bg-gradient-to-b from-white via-yellow-100 to-yellow-200  py-16 px-6 lg:px-12 xl:px-16 overflow-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-12 gap-12 items-stretch">
         {/* Colonna testo - 2/3 su XL */}
         <motion.div
